@@ -26,6 +26,9 @@
     "/423down/:category/:type": [
         "Fatpandac"
     ],
+    "/50forum/": [
+        "sddiky"
+    ],
     "/8world/:category?": [
         "nczitzk"
     ],
@@ -67,6 +70,9 @@
     ],
     "/atcoder/contest/:language?/:rated?/:category?/:keyword?": [
         "nczitzk"
+    ],
+    "/audiobar/latest": [
+        "zxzhuty"
     ],
     "/bandcamp/live": [
         "nczitzk"
@@ -789,6 +795,10 @@
     "/nodejs/blog/:language?": [
         "nczitzk"
     ],
+    "/nogizaka46/news": [
+        "crispgm",
+        "Fatpandac"
+    ],
     "/now/news/:category?/:id?": [
         "nczitzk"
     ],
@@ -858,6 +868,12 @@
     ],
     "/rfi/news": [
         "nczitzk"
+    ],
+    "/rsshub/routes/:lang?": [
+        "DIYgod"
+    ],
+    "/rsshub/rsshub/sponsors": [
+        "DIYgod"
     ],
     "/ruancan/ruancan": [
         "nczitzk"
@@ -1161,9 +1177,6 @@
     "/zjgtjy/:type?": [
         "Fatpandac"
     ],
-    "/rsshub/rss": [],
-    "/rsshub/routes": [],
-    "/rsshub/sponsors": [],
     "/1draw": [],
     "/quicker/qa": [],
     "/quicker/update": [],
@@ -2129,7 +2142,6 @@
     "/yidoutang/mtest": [],
     "/yidoutang/case/:type": [],
     "/kaiyan/index": [],
-    "/nogizaka46/news": [],
     "/keyakizaka46/news": [],
     "/hinatazaka46/news": [],
     "/keyakizaka46/blog": [],
