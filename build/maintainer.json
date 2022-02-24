@@ -23,6 +23,22 @@
     "/18comic/:category?/:time?/:order?/:keyword?": [
         "nczitzk"
     ],
+    "/36kr/motif/:mid": [
+        "nczitzk"
+    ],
+    "/36kr/news/:category?": [
+        "nczitzk"
+    ],
+    "/36kr/newsflashes": [
+        "hillerliao"
+    ],
+    "/36kr/search/article/:keyword": [
+        "xyqfer",
+        "kt286"
+    ],
+    "/36kr/user/:uid": [
+        "nczitzk"
+    ],
     "/423down/:category/:type": [
         "Fatpandac"
     ],
@@ -348,6 +364,12 @@
     "/elsevier/:journal/vol/:id": [
         "Derekmini",
         "sunwolf-swb"
+    ],
+    "/ems/news": [
+        "luyuhuang"
+    ],
+    "/ems/apple/:id": [
+        "Fatpandac"
     ],
     "/epicgames/epicgames/:collection": [
         "DIYgod",
@@ -688,6 +710,12 @@
     "/jump/discount/:platform/:filter?/:countries?": [
         "zytomorrow"
     ],
+    "/kbs/news/:category?/:language?": [
+        "nczitzk"
+    ],
+    "/kbs/today/:language?": [
+        "nczitzk"
+    ],
     "/kemono/:source?/:id?": [
         "nczitzk"
     ],
@@ -753,6 +781,14 @@
         "nczitzk",
         "ma6254"
     ],
+    "/lofter/tag/:name?/:type?": [
+        "hoilc",
+        "nczitzk"
+    ],
+    "/lofter/user/:name?": [
+        "hondajojo",
+        "nczitzk"
+    ],
     "/logonews/work/tags/:tag": [
         "nczitzk"
     ],
@@ -792,6 +828,12 @@
     "/mygopen/:label?": [
         "nczitzk"
     ],
+    "/nbd/daily": [
+        "MeXunco"
+    ],
+    "/nbd/:id?": [
+        "nczitzk"
+    ],
     "/neea/jlpt": [
         "nczitzk"
     ],
@@ -828,6 +870,12 @@
     "/nippon/:category?": [
         "laampui"
     ],
+    "/njnu/jwc/:type": [
+        "Shujakuinkuraudo"
+    ],
+    "/njnu/ceai/:type": [
+        "Shujakuinkuraudo"
+    ],
     "/nju/jw/:type": [
         "ret-1"
     ],
@@ -845,6 +893,9 @@
     ],
     "/nju/zbb/:type": [
         "ret-1"
+    ],
+    "/nltimes/news/:category?": [
+        "Hivol"
     ],
     "/nodejs/blog/:language?": [
         "nczitzk"
@@ -1203,7 +1254,23 @@
     "/wenku8/chapter/:id": [
         "zsakvo"
     ],
+    "/wfu/jwc": [
+        "cccht"
+    ],
+    "/wfu/news/:type?": [
+        "cccht"
+    ],
     "/whitehouse/briefing-room/:category?": [
+        "nczitzk"
+    ],
+    "/who/news/:language?": [
+        "nczitzk"
+    ],
+    "/who/news-room/:category?/:language?": [
+        "LogicJake",
+        "nczitzk"
+    ],
+    "/who/speeches/:language?": [
         "nczitzk"
     ],
     "/whoscall/": [
@@ -1439,7 +1506,6 @@
     "/v2ex/topics/:type": [],
     "/v2ex/post/:postid": [],
     "/v2ex/tab/:tabid": [],
-    "/readhub/category/:category": [],
     "/fdroid/apprelease/:app": [],
     "/konachan/post/popular_recent": [],
     "/konachan.com/post/popular_recent": [],
@@ -1564,7 +1630,7 @@
     "/wechat/ce/:id": [],
     "/wechat/announce": [],
     "/wechat/miniprogram/plugins": [],
-    "/wechat/tgchannel/:id/:mpName?": [],
+    "/wechat/tgchannel/:id/:mpName?/:searchQueryType?": [],
     "/wechat/uread/:userid": [],
     "/wechat/ershicimi/:id": [],
     "/wechat/wjdn/:id": [],
@@ -1919,11 +1985,6 @@
     "/bihu/activaties/:id": [],
     "/tingdiantz/nanjing": [],
     "/tingdiantz/95598/:province/:city/:district?": [],
-    "/36kr/search/article/:keyword": [],
-    "/36kr/newsflashes": [],
-    "/36kr/news/:caty": [],
-    "/36kr/user/:uid": [],
-    "/36kr/motif/:mid": [],
     "/pmcaff/list/:typeid": [],
     "/pmcaff/feed/:typeid": [],
     "/pmcaff/user/:userid": [],
@@ -2107,9 +2168,6 @@
     "/nintendo/news/china": [],
     "/nintendo/direct": [],
     "/nintendo/system-update": [],
-    "/who/news-room/:type": [],
-    "/who/speeches/:language?": [],
-    "/who/news/:language?": [],
     "/metred/fuli": [],
     "/mit/graduateadmissions/:type/:name": [],
     "/mit/ocw-top": [],
@@ -2339,8 +2397,6 @@
     "/taptap/topic/:id/:label?": [],
     "/taptap/changelog/:id": [],
     "/taptap/review/:id/:order?": [],
-    "/lofter/tag/:name?/:type?": [],
-    "/lofter/user/:username": [],
     "/watchface/:watch_type?/:list_type?": [],
     "/cnu/selected": [],
     "/cnu/discovery/:type?/:category?": [],
@@ -2348,8 +2404,6 @@
     "/wineyun/:category": [],
     "/xiaohongshu/user/:user_id/:category": [],
     "/xiaohongshu/board/:board_id": [],
-    "/nbd/daily": [],
-    "/nbd/:id?": [],
     "/kzfeed/topic/:id": [],
     "/factcheck": [],
     "/x-mol/news/:tag?": [],
@@ -2693,7 +2747,6 @@
     "/open163/vip": [],
     "/open163/latest": [],
     "/boston/:tag?": [],
-    "/ems/news": [],
     "/changku": [],
     "/changku/cate/:postid": [],
     "/scmp/:category_id": [],
@@ -3123,6 +3176,5 @@
     "/secrss/category/:category?": [],
     "/secrss/author/:author?": [],
     "/fashionnetwork/headline/:country?": [],
-    "/mirror/:id": [],
-    "/kbs/today/:language?": []
+    "/mirror/:id": []
 }
