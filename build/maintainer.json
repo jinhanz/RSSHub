@@ -664,6 +664,9 @@
         "Derekmini",
         "auto-bot-ty"
     ],
+    "/ielts/": [
+        "zenxds"
+    ],
     "/independent/ps5-stock-uk": [
         "DIYgod"
     ],
@@ -1093,6 +1096,10 @@
     "/people/:site?/:category?": [
         "nczitzk"
     ],
+    "/picuki/profile/:id/:displayVideo?": [
+        "hoilc",
+        "Rongronggg9"
+    ],
     "/pku/hr/:category?": [
         "nczitzk"
     ],
@@ -1252,8 +1259,9 @@
         "xyqfer",
         "Fatpandac"
     ],
-    "/telegram/telegram/channel/:username/:searchQuery?": [
-        "DIYgod"
+    "/telegram/telegram/channel/:username/:routeParams?": [
+        "DIYgod",
+        "Rongronggg9"
     ],
     "/telegram/telegram/stickerpack/:name": [
         "DIYgod"
@@ -1422,6 +1430,9 @@
     "/whoscall/categories/:category?": [
         "nczitzk"
     ],
+    "/wikinews/latest": [
+        "KotoriK"
+    ],
     "/wsj/:lang/:category?": [
         "oppilate"
     ],
@@ -1449,7 +1460,8 @@
         "Maecenas"
     ],
     "/xiaoyuzhou/podcast/:id": [
-        "hondajojo"
+        "hondajojo",
+        "jtsang4"
     ],
     "/yaohuo/": [
         "nczitzk"
@@ -2907,7 +2919,6 @@
     "/liequtv/room/:id": [],
     "/behance/:user/:type?": [],
     "/bwu/news": [],
-    "/picuki/profile/:id/:displayVideo?": [],
     "/newrank/wechat/:wxid": [],
     "/newrank/douyin/:dyid": [],
     "/manxiaosi/book/:id": [],
