@@ -24,7 +24,15 @@ Session.vim
 assets/build/
 package-lock.json
 
+# 3rd party embed
 lib/v2/bilibili
 lib/routes/ncm
+
+# Custom routes (collection)
 lib/v2/douban
+
+# add video controls
+lib/v2/douyin
+lib/v2/picuki
+
 .gitignore
