@@ -23,3 +23,8 @@ Session.vim
 
 assets/build/
 package-lock.json
+
+lib/v2/bilibili
+lib/routes/ncm
+lib/v2/douban
+.gitignore
