@@ -34,5 +34,6 @@ lib/v2/douban
 # add video controls
 lib/v2/douyin
 lib/v2/picuki
+lib/v2/tiktok
 
 .gitignore

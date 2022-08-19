@@ -1,3 +1,3 @@
-<video controls loop poster="{{ poster }}" preload="none">
+<video controls="controls" loop poster="{{ poster }}" preload="none">
 <source src="{{ source }}">
 </video>
