@@ -288,6 +288,9 @@
     "/bandcamp/weekly": [
         "nczitzk"
     ],
+    "/bangumi/online": [
+        "devinmugen"
+    ],
     "/bangumi/": [
         "nczitzk"
     ],
@@ -1620,6 +1623,9 @@
     "/huxiu/collection/:id": [
         "AlexdanerZe"
     ],
+    "/huxiu/moment": [
+        "nczitzk"
+    ],
     "/huxiu/tag/:id": [
         "xyqfer",
         "HenryQW"
@@ -2140,6 +2146,9 @@
     "/lvv2/top/:channel/:sort?": [
         "Fatpandac"
     ],
+    "/macfilos/blog": [
+        "nczitzk"
+    ],
     "/mcachicago/exhibitions": [
         "chazeon"
     ],
@@ -2148,6 +2157,12 @@
     ],
     "/medsci/:sid?/:tid?": [
         "nczitzk"
+    ],
+    "/meteor/boards": [
+        "TonyRL"
+    ],
+    "/meteor/:board?": [
+        "TonyRL"
     ],
     "/metmuseum/exhibitions": [
         "chazeon"
@@ -2650,6 +2665,27 @@
         "TonyRL"
     ],
     "/playno1/st/:catid?": [
+        "TonyRL"
+    ],
+    "/plurk/anonymous": [
+        "TonyRL"
+    ],
+    "/plurk/hotlinks": [
+        "TonyRL"
+    ],
+    "/plurk/news/:lang?": [
+        "TonyRL"
+    ],
+    "/plurk/search/:keyword": [
+        "TonyRL"
+    ],
+    "/plurk/top/:category?/:lang?": [
+        "TonyRL"
+    ],
+    "/plurk/topic/:topic": [
+        "TonyRL"
+    ],
+    "/plurk/user/:user": [
         "TonyRL"
     ],
     "/pmthinking/": [
@@ -3437,6 +3473,9 @@
     "/wangqiutiyu/anchor/:id": [
         "nczitzk"
     ],
+    "/warthunder/news": [
+        "axojhf"
+    ],
     "/watchout/": [
         "nczitzk"
     ],
@@ -3620,6 +3659,18 @@
     ],
     "/xueqiu/user_stock/:id": [
         "hillerliao"
+    ],
+    "/xyzrank/": [
+        "nczitzk"
+    ],
+    "/xyzrank/hot-episodes-new": [
+        "nczitzk"
+    ],
+    "/xyzrank/hot-podcasts": [
+        "nczitzk"
+    ],
+    "/xyzrank/new-podcasts": [
+        "nczitzk"
     ],
     "/yaohuo/": [
         "nczitzk"

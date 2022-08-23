@@ -1253,8 +1253,8 @@
       }
     ]
   },
-  "萌番组 Bangumi Moe": {
-    "_name": "bangumi.moe",
+  "bangumi.moe": {
+    "_name": "萌番組",
     ".": [
       {
         "title": "最新",
@@ -1271,6 +1271,19 @@
           "/search/index"
         ],
         "target": "/bangumi/:tags?"
+      }
+    ]
+  },
+  "bangumi.online": {
+    "_name": "アニメ新番組",
+    ".": [
+      {
+        "title": "當季新番",
+        "docs": "https://docs.rsshub.app/anime.html#アニメ-xin-fan-zu-dang-ji-xin-fan",
+        "source": [
+          "/"
+        ],
+        "target": "/bangumi/online"
       }
     ]
   },
@@ -6302,6 +6315,15 @@
         "target": "/huxiu/article"
       },
       {
+        "title": "24小时",
+        "docs": "https://docs.rsshub.app/new-media.html#hu-xiu",
+        "source": [
+          "/moment",
+          "/"
+        ],
+        "target": "/huxiu/moment"
+      },
+      {
         "title": "标签",
         "docs": "https://docs.rsshub.app/new-media.html#hu-xiu",
         "source": [
@@ -8943,6 +8965,20 @@
       }
     ]
   },
+  "macfilos.com": {
+    "_name": "Macfilos",
+    ".": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/new-media.html#macfilos-blog",
+        "source": [
+          "/blog",
+          "/"
+        ],
+        "target": "/macfilos/blog"
+      }
+    ]
+  },
   "mcachicago.org": {
     "_name": "MCA Chicago",
     ".": [
@@ -8973,6 +9009,28 @@
           "/department/details",
           "/"
         ]
+      }
+    ]
+  },
+  "meteor.today": {
+    "_name": "Meteor",
+    ".": [
+      {
+        "title": "看板",
+        "docs": "https://docs.rsshub.app/bbs.html#meteor",
+        "source": [
+          "/board/:board",
+          "/board/:board/new"
+        ],
+        "target": "/meteor/board/:board"
+      },
+      {
+        "title": "看板列表",
+        "docs": "https://docs.rsshub.app/bbs.html#meteor",
+        "source": [
+          "/"
+        ],
+        "target": "/meteor/boards"
       }
     ]
   },
@@ -11145,6 +11203,64 @@
         "docs": "https://docs.rsshub.app/bbs.html#playno-1-wan-le-da-ren",
         "source": [
           "/portal.php"
+        ]
+      }
+    ]
+  },
+  "plurk.com": {
+    "_name": "Plurk",
+    ".": [
+      {
+        "title": "話題",
+        "docs": "https://docs.rsshub.app/social-media.html#plurk",
+        "source": [
+          "/topic/:topic"
+        ],
+        "target": "/plurk/topic/:topic"
+      },
+      {
+        "title": "話題排行榜",
+        "docs": "https://docs.rsshub.app/social-media.html#plurk",
+        "source": [
+          "/top"
+        ]
+      },
+      {
+        "title": "偷偷說",
+        "docs": "https://docs.rsshub.app/social-media.html#plurk",
+        "source": [
+          "/anonymous"
+        ],
+        "target": "/plurk/anonymous"
+      },
+      {
+        "title": "搜尋",
+        "docs": "https://docs.rsshub.app/social-media.html#plurk",
+        "source": [
+          "/search"
+        ]
+      },
+      {
+        "title": "最近分享",
+        "docs": "https://docs.rsshub.app/social-media.html#plurk",
+        "source": [
+          "/hotlinks"
+        ],
+        "target": "/plurk/hotlinks"
+      },
+      {
+        "title": "噗浪消息",
+        "docs": "https://docs.rsshub.app/social-media.html#plurk",
+        "source": [
+          "/news"
+        ],
+        "target": "/plurk/news"
+      },
+      {
+        "title": "用戶",
+        "docs": "https://docs.rsshub.app/social-media.html#plurk",
+        "source": [
+          "/:user"
         ]
       }
     ]
@@ -14137,6 +14253,20 @@
       }
     ]
   },
+  "warthunder.com": {
+    "_name": "War Thunder",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/game.html#war-thunder-ying-wen-news",
+        "source": [
+          "/en/news",
+          "/"
+        ],
+        "target": "/warthunder/news"
+      }
+    ]
+  },
   "watchout.tw": {
     "_name": "沃草",
     ".": [
@@ -14765,6 +14895,47 @@
           "/"
         ],
         "target": "/xueqiu/hots"
+      }
+    ]
+  },
+  "xyzrank.com": {
+    "_name": "中文播客榜",
+    ".": [
+      {
+        "title": "热门节目",
+        "docs": "https://docs.rsshub.app/multimedia.html#zhong-wen-bo-ke-bang-re-men-jie-mu",
+        "source": [
+          "/#/",
+          "/"
+        ],
+        "target": "/xyzrank"
+      },
+      {
+        "title": "热门播客",
+        "docs": "https://docs.rsshub.app/multimedia.html#zhong-wen-bo-ke-bang-re-men-bo-ke",
+        "source": [
+          "/#/hot-podcasts",
+          "/"
+        ],
+        "target": "/xyzrank/hot-podcasts"
+      },
+      {
+        "title": "新锐节目",
+        "docs": "https://docs.rsshub.app/multimedia.html#zhong-wen-bo-ke-bang-xin-rui-jie-mu",
+        "source": [
+          "/#/hot-episodes-new",
+          "/"
+        ],
+        "target": "/xyzrank/hot-episodes-new"
+      },
+      {
+        "title": "新锐播客",
+        "docs": "https://docs.rsshub.app/multimedia.html#zhong-wen-bo-ke-bang-xin-rui-bo-ke",
+        "source": [
+          "/#/new-podcasts",
+          "/"
+        ],
+        "target": "/xyzrank/new-podcasts"
       }
     ]
   },
