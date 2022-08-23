@@ -1682,6 +1682,12 @@
         "brilon",
         "Fatpandac"
     ],
+    "/islander/search": [
+        "TonyRL"
+    ],
+    "/islander/top30event": [
+        "TonyRL"
+    ],
     "/itch/devlog/:user/:id": [
         "nczitzk"
     ],
@@ -2802,6 +2808,9 @@
     "/radio-canada/latest/:language?": [
         "nczitzk"
     ],
+    "/remnote/changelog": [
+        "TonyRL"
+    ],
     "/reuters/investigates": [
         "LyleLee"
     ],
@@ -3758,7 +3767,7 @@
     "/zaobao/znews/:section?": [
         "shunf4"
     ],
-    "/zaobao/:type/:section": [
+    "/zaobao/:type?/:section?": [
         "shunf4"
     ],
     "/zhangyoubao/:category": [
