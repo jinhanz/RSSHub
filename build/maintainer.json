@@ -1263,6 +1263,9 @@
     "/gov/cmse/:path+": [
         "nczitzk"
     ],
+    "/gov/cnnic/:path+": [
+        "nczitzk"
+    ],
     "/gov/customs/list/:gchannel?": [
         "Jeason0228",
         "TonyRL"
@@ -2540,19 +2543,19 @@
     "/orcid/:id": [
         "OrangeEd1t"
     ],
-    "/oreno3d/authors/:authorid/:sort?": [
+    "/oreno3d/authors/:authorid/:sort/:pagelimit?": [
         "xueli_sherryli"
     ],
-    "/oreno3d/characters/:characterid/:sort?": [
+    "/oreno3d/characters/:characterid/:sort/:pagelimit?": [
         "xueli_sherryli"
     ],
-    "/oreno3d/origins/:originid/:sort?": [
+    "/oreno3d/origins/:originid/:sort/:pagelimit?": [
         "xueli_sherryli"
     ],
-    "/oreno3d/search/:keyword/:sort?": [
+    "/oreno3d/search/:keyword/:sort/:pagelimit?": [
         "xueli_sherryli"
     ],
-    "/oreno3d/tags/:tagid/:sort?": [
+    "/oreno3d/tags/:tagid/:sort/:pagelimit?": [
         "xueli_sherryli"
     ],
     "/oschina/news/:category?": [
@@ -3131,8 +3134,9 @@
     "/taoguba/:category?": [
         "nczitzk"
     ],
-    "/taptap/changelog/:id": [
-        "hoilc"
+    "/taptap/changelog/:id/:lang?": [
+        "hoilc",
+        "ETiV"
     ],
     "/taptap/review/:id/:order?/:lang?": [
         "hoilc",
@@ -3141,6 +3145,15 @@
     "/taptap/topic/:id/:type?/:sort?/:lang?": [
         "hoilc",
         "TonyRL"
+    ],
+    "/taptap/intl/changelog/:id/:lang?": [
+        "hoilc",
+        "ETiV"
+    ],
+    "/taptap/intl/review/:id/:order?/:lang?": [
+        "hoilc",
+        "TonyRL",
+        "ETiV"
     ],
     "/techflow520/newsflash": [
         "nczitzk"
