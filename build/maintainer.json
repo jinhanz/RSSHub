@@ -754,6 +754,9 @@
     "/diandong/ddh/:cate?": [
         "Fatpandac"
     ],
+    "/diershoubing/news": [
+        "wushijishan"
+    ],
     "/disinfo/publications": [
         "nczitzk"
     ],
@@ -3670,6 +3673,9 @@
     "/xjtu/std/:category?": [
         "nczitzk"
     ],
+    "/xmnn/epaper/:id?": [
+        "nczitzk"
+    ],
     "/xueqiu/column/:id": [
         "TonyRL"
     ],
@@ -4977,7 +4983,6 @@
     "/popiask/:sharecode/:pagesize?": [],
     "/tapechat/questionbox/:sharecode/:pagesize?": [],
     "/amd/graphicsdrivers/:id/:rid?": [],
-    "/erbingapp/news": [],
     "/dsb/area/:area": [],
     "/kaopunews/:language?": [],
     "/gelonghui/user/:id": [],
