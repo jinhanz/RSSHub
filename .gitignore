@@ -30,6 +30,7 @@ lib/routes/ncm
 
 # Custom routes (collection)
 lib/v2/douban
+lib/routes/weibo
 
 # add video controls
 lib/v2/douyin
