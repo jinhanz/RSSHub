@@ -118,8 +118,6 @@
         "parse-torrent": "9.1.5",
         "pidusage": "3.0.0",
         "plist": "3.0.6",
-        "chrome-aws-lambda": "10.1.0",
-        "puppeteer-core": "10.1.0",
         "puppeteer": "16.2.0",
         "puppeteer-extra": "3.3.4",
         "puppeteer-extra-plugin-stealth": "2.11.1",
