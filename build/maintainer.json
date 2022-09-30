@@ -1496,9 +1496,6 @@
     "/gov/anhui/kjt/:path?": [
         "nczitzk"
     ],
-    "/gov/beijing/bphc/:channel": [
-        "bigfei"
-    ],
     "/gov/beijing/jw/tzgg": [
         "nczitzk"
     ],
@@ -1928,8 +1925,7 @@
         "nczitzk"
     ],
     "/jandan/": [
-        "nczitzk",
-        "bigfei"
+        "nczitzk"
     ],
     "/javbus/": [
         "MegrezZhu",
@@ -3105,12 +3101,6 @@
     "/qweather/qweather/now/:location": [
         "Rein-Ou"
     ],
-    "/radio/album/:id": [
-        "nczitzk"
-    ],
-    "/radio/zhibo/:id": [
-        "nczitzk"
-    ],
     "/radio/:id": [
         "kt286",
         "nczitzk"
@@ -3596,9 +3586,6 @@
         "nczitzk",
         "bigfei"
     ],
-    "/theverge/": [
-        "HenryQW"
-    ],
     "/thwiki/calendar/:before?/:after?": [
         "aether17"
     ],
@@ -3727,13 +3714,6 @@
     ],
     "/ucas/job/:type?": [
         "Fatpandac"
-    ],
-    "/udn/global/:category?": [
-        "nczitzk"
-    ],
-    "/udn/global/tag/:tag?": [
-        "emdoe",
-        "nczitzk"
     ],
     "/udn/news/breakingnews/:id": [
         "miles170"
@@ -4609,6 +4589,7 @@
     "/rs05/rs05": [],
     "/qutoutiao/category/:cid": [],
     "/bbc/:site?/:channel?": [],
+    "/verge": [],
     "/pediy/topic/:category?/:type?": [],
     "/miniapp/article/:category": [],
     "/miniapp/store/newest": [],
@@ -4668,6 +4649,7 @@
     "/tssstatus/:board/:build": [],
     "/anime1/anime/:time/:name": [],
     "/anime1/search/:keyword": [],
+    "/udn/global/:tid": [],
     "/gitea/blog": [],
     "/idownloadblog": [],
     "/testerhome/newest": [],
