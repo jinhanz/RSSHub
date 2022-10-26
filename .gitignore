@@ -24,6 +24,9 @@ Session.vim
 assets/build/
 package-lock.json
 
+# limit crawls
+lib/v2/baozimh
+
 # 3rd party embed
 lib/v2/bilibili
 lib/routes/ncm
