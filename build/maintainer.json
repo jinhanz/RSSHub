@@ -4313,7 +4313,7 @@
     "/benedictevans": [],
     "/weibo/user/:uid/:routeParams?": [],
     "/weibo/keyword/:keyword/:routeParams?": [],
-    "/weibo/search/hot": [],
+    "/weibo/search/hot/:type?": [],
     "/weibo/super_index/:id/:type?/:routeParams?": [],
     "/weibo/oasis/user/:userid": [],
     "/ncm/playlist/:id": [],
