@@ -31,9 +31,10 @@ lib/v2/baozimh
 lib/v2/bilibili
 lib/routes/ncm
 
-# Custom routes (collection)
+# Custom routes
 lib/v2/douban
-lib/routes/weibo
+lib/v2/weibo
+lib/v2/tencent/music
 
 # add video controls
 lib/v2/douyin

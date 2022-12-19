@@ -55,8 +55,8 @@ module.exports = {
                             heteronym: true,
                             segment: true,
                         })
-                            .map((item) => item[0])
-                            .join('-')
+                        .map((item) => item[0])
+                        .join('-')
                     );
                 },
                 level: 2,
@@ -75,6 +75,7 @@ module.exports = {
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }],
         ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
         ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#ff8549' }],
+        ['script', { type: 'text/javascript', src: 'https://cdn.wwads.cn/js/makemoney.js' }],
     ],
     theme: 'vuepress-theme-rsshub',
     themeConfig: {
@@ -91,8 +92,7 @@ module.exports = {
                 lastUpdated: '上次更新',
                 nav: require('./nav/zh'),
                 sidebar: {
-                    '/': [
-                        {
+                    '/': [{
                             title: '指南',
                             collapsable: true,
                             children: ['', 'usage', 'faq', 'parameter', 'api'],
@@ -138,8 +138,7 @@ module.exports = {
                 lastUpdated: 'Last Updated',
                 nav: require('./nav/en'),
                 sidebar: {
-                    '/en/': [
-                        {
+                    '/en/': [{
                             title: 'Guide',
                             collapsable: true,
                             children: ['', 'usage', 'faq', 'parameter', 'api'],
