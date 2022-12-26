@@ -1624,16 +1624,10 @@
     "/gov/beijing/kw/:channel": [
         "Fatpandac"
     ],
-    "/gov/dianbai/:path+": [
-        "ShuiHuo"
-    ],
-    "/gov/gaozhou/:path+": [
-        "ShuiHuo"
-    ],
-    "/gov/guangdong/tqyb/sncsyjxh": [
+    "/gov/guangdong/tqyb/tfxtq": [
         "Fatpandac"
     ],
-    "/gov/guangdong/tqyb/tfxtq": [
+    "/gov/guangdong/tqyb/sncsyjxh": [
         "Fatpandac"
     ],
     "/gov/gz/xw/:category": [
@@ -1645,29 +1639,11 @@
     "/gov/hebei/czt/xwdt/:category?": [
         "nczitzk"
     ],
-    "/gov/huazhou/:path+": [
-        "ShuiHuo"
-    ],
     "/gov/huizhou/zwgk/:category?": [
         "Fatpandac"
     ],
     "/gov/hunan/changsha/major-email": [
         "shansing"
-    ],
-    "/gov/maoming/:path+": [
-        "ShuiHuo"
-    ],
-    "/gov/maonan/:category": [
-        "ShuiHuo"
-    ],
-    "/gov/mgs/:path+": [
-        "ShuiHuo"
-    ],
-    "/gov/mmht/:path+": [
-        "ShuiHuo"
-    ],
-    "/gov/sdb/:path+": [
-        "ShuiHuo"
     ],
     "/gov/shaanxi/kjt/:id?": [
         "nczitzk"
@@ -1695,9 +1671,6 @@
     ],
     "/gov/taiyuan/rsj/:caty/:page?": [
         "2PoL"
-    ],
-    "/gov/xinyi/:path+": [
-        "ShuiHuo"
     ],
     "/gov/xuzhou/hrss/:category?": [
         "nczitzk"
@@ -3137,9 +3110,6 @@
     "/panewslab/:category?": [
         "nczitzk"
     ],
-    "/paradigm/writing": [
-        "Fatpandac"
-    ],
     "/penguin-random-house/the-read-down": [
         "StevenRCE0"
     ],
@@ -3864,12 +3834,6 @@
     ],
     "/tencent/cloud/column/:id?/:tag?": [
         "nczitzk"
-    ],
-    "/tencent/news/coronavirus/data/:province?/:city?": [
-        "CaoMeiYouRen"
-    ],
-    "/tencent/news/coronavirus/total": [
-        "CaoMeiYouRen"
     ],
     "/tencent/pvp/newsindex/:type": [
         "Jeason0228",
