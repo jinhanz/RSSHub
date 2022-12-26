@@ -1498,15 +1498,15 @@
   dependencies:
     "@babel/runtime-corejs2" "^7.2.0"
     "@postlight/ci-failed-test-reporter" "^1.0"
-    browser-request "*"
+    browser-request "github:postlight/browser-request#feat-add-headers-to-response"
     cheerio "^0.22.0"
     difflib "github:postlight/difflib.js"
     ellipsize "0.1.0"
     iconv-lite "0.5.0"
-    jquery "*"
+    jquery "^3.5.0"
     moment "^2.23.0"
     moment-parseformat "3.0.0"
-    moment-timezone "*"
+    moment-timezone "0.5.37"
     postman-request "^2.88.1-postman.31"
     string-direction "^0.1.2"
     turndown "^7.1.1"
@@ -9958,7 +9958,7 @@ nock@13.2.9:
     lodash "^4.17.21"
     propagate "^2.0.0"
 
-node-fetch@2.6.7, node-fetch@^2.3.0, node-fetch@^2.6.7:
+node-fetch@2.6.7, node-fetch@^2.3.0, node-fetch@^2.6.1, node-fetch@^2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
   integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
