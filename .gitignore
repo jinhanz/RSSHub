@@ -36,6 +36,10 @@ lib/v2/douban
 lib/v2/weibo
 lib/v2/tencent/music
 
+# Unscramble images, allow query with operators
+lib/v2/18comic/search.js
+lib/v2/18comic/utils.js
+
 # add video controls
 lib/v2/douyin
 lib/v2/picuki
