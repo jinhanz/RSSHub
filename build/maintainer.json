@@ -3203,6 +3203,11 @@
     "/pixiv/user/:id": [
         "DIYgod"
     ],
+    "/pixwox/profile/:id/:functionalFlag?": [
+        "hoilc",
+        "Rongronggg9",
+        "devinmugen"
+    ],
     "/pku/admission/sszs": [
         "pkuyjs"
     ],
