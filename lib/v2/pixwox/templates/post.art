@@ -1,0 +1,2 @@
+{{ if media }}{{@ media.replace(/\n/g, '') }}{{ /if }}
+{{ if desc }}<p>{{@ desc.replace(/\n/g, '<br>') }}</p>{{ /if }}
