@@ -1,4 +1,5 @@
 {{ if embed }}
+<img width="0" height="0" hidden="true" src="{{ img.url }}">
 <iframe id="ytplayer" type="text/html" width="640" height="360" src="https://www.youtube-nocookie.com/embed/{{ videoId }}" frameborder="0" allowfullscreen></iframe>
 {{ else }}
 <img src="{{ img.url }}">
