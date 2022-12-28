@@ -45,4 +45,9 @@ lib/v2/douyin
 lib/v2/picuki
 lib/v2/tiktok
 
+# YouTube Video Translation
+lib/v2/youtube/channel.js
+lib/v2/youtube/utils.js
+lib/v2/youtube/router.js
+
 .gitignore
