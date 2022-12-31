@@ -4562,6 +4562,9 @@
     "/ymgal/article/:type?": [
         "SunBK201"
     ],
+    "/ymgal/game/release": [
+        "SunBK201"
+    ],
     "/yoasobi-music/info/:category": [
         "Kiotlin"
     ],
