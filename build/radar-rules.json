@@ -3045,6 +3045,51 @@
       }
     ]
   },
+  "cnblogs.com": {
+    "_name": "博客园",
+    "www": [
+      {
+        "title": "10天推荐排行榜",
+        "docs": "https://docs.rsshub.app/blog.html#博客园",
+        "source": [
+          "/aggsite/topdiggs"
+        ],
+        "target": "/cnblogs/aggsite/topdiggs"
+      },
+      {
+        "title": "48小时阅读排行",
+        "docs": "https://docs.rsshub.app/blog.html#博客园",
+        "source": [
+          "/aggsite/topviews"
+        ],
+        "target": "/cnblogs/aggsite/topviews"
+      },
+      {
+        "title": "编辑推荐",
+        "docs": "https://docs.rsshub.app/blog.html#博客园",
+        "source": [
+          "/aggsite/headline"
+        ],
+        "target": "/cnblogs/aggsite/headline"
+      },
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/blog.html#博客园",
+        "source": [
+          "/cate/:type"
+        ],
+        "target": "/cnblogs/cate/:type"
+      },
+      {
+        "title": "精华区",
+        "docs": "https://docs.rsshub.app/blog.html#博客园",
+        "source": [
+          "/pick"
+        ],
+        "target": "/cnblogs/pick"
+      }
+    ]
+  },
   "cncf.io": {
     "_name": "CNCF",
     ".": [
@@ -10527,6 +10572,14 @@
           "/user/:uid"
         ],
         "target": "/luogu/user/feed/:uid"
+      },
+      {
+        "title": "用户博客",
+        "docs": "https://docs.rsshub.app/programming.html#luo-gu",
+        "source": [
+          "/blog/:username"
+        ],
+        "target": "/luogu/user/blog/:username"
       }
     ]
   },
@@ -17961,6 +18014,20 @@
           "/"
         ],
         "target": "/xwlb"
+      }
+    ]
+  },
+  "xys.org": {
+    "_name": "新语丝",
+    ".": [
+      {
+        "title": "新到资料",
+        "docs": "https://docs.rsshub.app/blog.html#xin-yu-si",
+        "source": [
+          "/",
+          "/new.html"
+        ],
+        "target": "/xys/new"
       }
     ]
   },
