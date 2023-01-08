@@ -4155,6 +4155,12 @@
     "/tynu/": [
         "2PoL"
     ],
+    "/typora/changelog": [
+        "cnzgray"
+    ],
+    "/typora/changelog/dev": [
+        "nczitzk"
+    ],
     "/u3c3/:type?/:keyword?": [
         "noname1897"
     ],
@@ -5138,8 +5144,6 @@
     "/tits-guru/daily": [],
     "/tits-guru/category/:type": [],
     "/tits-guru/model/:name": [],
-    "/typora/changelog": [],
-    "/typora/changelog-dev/:os?": [],
     "/tssstatus/:board/:build": [],
     "/anime1/anime/:time/:name": [],
     "/anime1/search/:keyword": [],
