@@ -575,6 +575,9 @@
     "/blockbeats/:channel?": [
         "Fatpandac"
     ],
+    "/bloomberg/authors/:id/:slug": [
+        "josh"
+    ],
     "/bloomberg/:site?": [
         "bigfei"
     ],
@@ -875,6 +878,9 @@
     ],
     "/curius/links/:name": [
         "Ovler-Young"
+    ],
+    "/cw/author/:channel": [
+        "TonyRL"
     ],
     "/cw/master/:channel": [
         "TonyRL"
@@ -4573,6 +4579,9 @@
     ],
     "/xueqiu/user_stock/:id": [
         "hillerliao"
+    ],
+    "/xunhupay/blog": [
+        "Joey"
     ],
     "/xwlb/": [
         "xfangbao"
