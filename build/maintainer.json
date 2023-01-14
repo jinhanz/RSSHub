@@ -2427,7 +2427,7 @@
     "/jike/topic/text/:id": [
         "HenryQW"
     ],
-    "/jike/topic/:id": [
+    "/jike/topic/:id/:showUid?": [
         "DIYgod",
         "prnake"
     ],
@@ -4716,6 +4716,9 @@
     ],
     "/zaobao/:type?/:section?": [
         "shunf4"
+    ],
+    "/zaozao/article/:type?": [
+        "shaomingbo"
     ],
     "/zcmu/jwc/:type?": [
         "CCraftY"
