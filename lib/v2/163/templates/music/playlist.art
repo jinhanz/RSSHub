@@ -1,0 +1,5 @@
+歌手：{{ singer }}<br>
+专辑：{{ album }}<br>
+{{ if date }}发行日期：{{ date }}<br>{{ /if }}
+<img src="{{ picUrl }}"><br>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=370 height=86 src="https://simple-notion-widgets.vercel.app/music-player/?server=netease&type=song&id={{ songId }}"></iframe>

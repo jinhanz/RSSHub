@@ -36,6 +36,38 @@ Parameter `time` only works when `mostwanted` is chosen as the category.
 
 </RouteEn>
 
+## Arcteryx
+
+### New Arrivals
+
+<RouteEn author="NavePnow" example="/arcteryx/new-arrivals/us/mens" path="/arcteryx/new-arrivals/:country/:gender" :paramsDesc="['country', 'gender']">
+
+Country
+
+| United States | Canada | United Kingdom |
+| ------------- | ------ | -------------- |
+| us            | ca     | gb             |
+
+gender
+
+| male | female |
+| ---- | ------ |
+| mens | womens |
+
+::: tip
+
+Parameter `country` can be found within the url of `Arcteryx` website.
+
+:::
+
+</RouteEn>
+
+## Bellroy
+
+### New Releases
+
+<RouteEn author="NavePnow" example="/bellroy/new-releases" path="/bellroy/new-releases" />
+
 ## booth.pm
 
 ### Shop
@@ -85,11 +117,11 @@ Parameter `time` only works when `mostwanted` is chosen as the category.
 
 ### UK - New Product Release
 
-<RouteEn author="HenryQW" example="/ikea/uk/new" path="/ikea/uk/new"/>
+<RouteEn author="HenryQW" example="/ikea/gb/new" path="/ikea/gb/new"/>
 
 ### UK - Offers
 
-<RouteEn author="HenryQW" example="/ikea/uk/offer" path="/ikea/uk/offer"/>
+<RouteEn author="HenryQW" example="/ikea/gb/offer" path="/ikea/gb/offer"/>
 
 ## LeBonCoin
 
@@ -129,22 +161,22 @@ Category
 
 Language
 
-| Id | Language   |
-| -- | ---------- |
-|    | en         |
-| de | Deutsch    |
-| es | Español    |
-| fi | Suomeksi   |
-| fr | Français   |
-| it | Italiano   |
-| ja | 日本語        |
-| nl | Nederlands |
-| no | Norsk      |
-| pl | Polski     |
-| pt | Português  |
-| ru | Русский    |
-| sv | Svenska    |
-| zh | 中文         |
+| Id  | Language   |
+| --- | ---------- |
+|     | en         |
+| de  | Deutsch    |
+| es  | Español    |
+| fi  | Suomeksi   |
+| fr  | Français   |
+| it  | Italiano   |
+| ja  | 日本語     |
+| nl  | Nederlands |
+| no  | Norsk      |
+| pl  | Polski     |
+| pt  | Português  |
+| ru  | Русский    |
+| sv  | Svenska    |
+| zh  | 中文       |
 
 </RouteEn>
 
@@ -173,6 +205,12 @@ Language
 ### Store
 
 <RouteEn author="nczitzk" example="/shopback/shopee-mart" path="/shopback/:store" :paramsDesc="['Store, can be found in URL']"/>
+
+## Snow Peak
+
+### New Arrivals(USA)
+
+<RouteEn author="NavePnow" example="/snowpeak/us/new-arrivals" path="/snowpeak/us/new-arrivals"/>
 
 ## The Independent
 

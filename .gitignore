@@ -2,6 +2,7 @@ node_modules
 npm-debug.log
 error.log
 combined.log
+.log
 .vscode
 .idea
 .DS_Store
