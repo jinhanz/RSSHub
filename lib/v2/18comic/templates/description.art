@@ -1,0 +1,4 @@
+<p>{{ introduction }}</p>
+{{ each images image }}
+<img src="https://split-image.vercel.app/18comic?url={{ image }}">
+{{ /each }}

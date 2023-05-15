@@ -1,28 +1,28 @@
-node_modules
-npm-debug.log
-error.log
-combined.log
-.log
-.vscode
-.idea
 .DS_Store
-docs/.vuepress/dist
-lib/config/app.json
-lib/config/config.js
-yarn-error.log
-tmp
-*.swp
-*.iml
-coverage
 .env
-app-minimal/
-dump.rdb
-Session.vim
-
+.eslintcache
+.idea
+.log
 .now
 .vercel
+.vscode
+.yarn
 
+*.swp
+*.iml
+
+app-minimal/
 assets/build/
+coverage
+docs/.vuepress/dist
+node_modules
+tmp
+
+Session.vim
+combined.log
+dump.rdb
+error.log
+npm-debug.log
 package-lock.json
 
 # limit crawls
@@ -52,3 +52,6 @@ lib/v2/youtube/utils.js
 lib/v2/youtube/router.js
 
 .gitignore
+# pnpm-lock.yaml
+yarn.lock
+yarn-error.log
