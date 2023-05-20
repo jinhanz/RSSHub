@@ -1481,6 +1481,35 @@
       }
     ]
   },
+  "aisixiang.com": {
+    "_name": "爱思想",
+    ".": [
+      {
+        "title": "栏目",
+        "docs": "https://docs.rsshub.app/reading.html#ai-si-xiang",
+        "source": [
+          "/data/search",
+          "/"
+        ]
+      },
+      {
+        "title": "排行",
+        "docs": "https://docs.rsshub.app/reading.html#ai-si-xiang",
+        "source": [
+          "/toplist",
+          "/"
+        ]
+      },
+      {
+        "title": "思想库（专栏）",
+        "docs": "https://docs.rsshub.app/reading.html#ai-si-xiang",
+        "source": [
+          "/thinktank",
+          "/"
+        ]
+      }
+    ]
+  },
   "ajmide.com": {
     "_name": "阿基米德FM",
     "m": [
@@ -7428,6 +7457,15 @@
         "docs": "https://docs.rsshub.app/finance.html#fx-markets",
         "source": "/regulation",
         "target": "/fx-markets/regulation"
+      }
+    ]
+  },
+  "fzmtr.com": {
+    "_name": "福州地铁",
+    "www": [
+      {
+        "title": "通知公告",
+        "docs": "https://docs.rsshub.app/travel.html#fu-zhou-di-tie"
       }
     ]
   },
@@ -24419,6 +24457,18 @@
         "source": [
           "/:region/:id",
           "/:id",
+          "/"
+        ]
+      }
+    ]
+  },
+  "zyw.asia": {
+    "_name": "zyw",
+    "hot": [
+      {
+        "title": "今日热榜",
+        "docs": "https://docs.rsshub.app/new-media.html#zyw-jin-ri-re-bang",
+        "source": [
           "/"
         ]
       }
