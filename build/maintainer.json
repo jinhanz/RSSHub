@@ -1161,7 +1161,8 @@
         "Fatpandac"
     ],
     "/cnki/author/:code": [
-        "harveyqiu"
+        "harveyqiu",
+        "Derekmini"
     ],
     "/cntheory/paper/:id?": [
         "nczitzk"
@@ -1396,7 +1397,7 @@
     "/diershoubing/news": [
         "wushijishan"
     ],
-    "/discord/channel/:channelID": [
+    "/discord/channel/:channelId": [
         "TonyRL"
     ],
     "/disinfo/publications": [
