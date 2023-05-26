@@ -814,6 +814,12 @@
     "/bluestacks/release/5": [
         "TonyRL"
     ],
+    "/bmkg/earthquake": [
+        "Shinanory"
+    ],
+    "/bmkg/news": [
+        "Shinanory"
+    ],
     "/bnu/bs/:category?": [
         "nczitzk"
     ],
@@ -1867,6 +1873,10 @@
     ],
     "/furstar/archive/:lang?": [
         "NeverBehave"
+    ],
+    "/futunn/main": [
+        "Wsine",
+        "nczitzk"
     ],
     "/fx-markets/fx-markets/:channel": [
         "mikkkee"
@@ -6953,7 +6963,6 @@
     "/egameqq/room/:id": [],
     "/gov/chinatax/latest": [],
     "/lizhi/user/:id": [],
-    "/futunn/highlights": [],
     "/boston/:tag?": [],
     "/changku": [],
     "/changku/cate/:postid": [],
