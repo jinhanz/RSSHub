@@ -5473,6 +5473,12 @@
     "/usts/juch/:type?": [
         "Fatpandac"
     ],
+    "/utgd/:category?": [
+        "nczitzk"
+    ],
+    "/utgd/topic/:topic?": [
+        "nczitzk"
+    ],
     "/uw/gix/news/:category": [
         "dykderrick"
     ],
