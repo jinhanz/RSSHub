@@ -4650,6 +4650,9 @@
         "junfengP",
         "nczitzk"
     ],
+    "/sehuatang/user/:uid": [
+        "JamYiz"
+    ],
     "/sehuatang/:subforumid?/:type?": [
         "qiwihui",
         "junfengP",
