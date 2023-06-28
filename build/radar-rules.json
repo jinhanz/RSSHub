@@ -3724,6 +3724,15 @@
         "target": "/cas/ia/yjs"
       }
     ],
+    "www.is": [
+      {
+        "title": "软件研究所",
+        "docs": "https://docs.rsshub.app/university.html#zhong-guo-ke-xue-yuan",
+        "source": [
+          "/"
+        ]
+      }
+    ],
     "www.sim": [
       {
         "title": "上海微系统与信息技术研究所 - 科技进展",
@@ -7946,6 +7955,14 @@
           "/categories/:category"
         ],
         "target": "/gcores/radios/:category"
+      },
+      {
+        "title": "专题",
+        "docs": "https://docs.rsshub.app/new-media.html#ji-he-wang-zhuan-ti",
+        "source": [
+          "/collections/:collection"
+        ],
+        "target": "/gcores/collections/:collection"
       }
     ]
   },
