@@ -1943,6 +1943,10 @@
     "/fx-markets/fx-markets/:channel": [
         "mikkkee"
     ],
+    "/fx678/kx": [
+        "occupy5",
+        "dousha"
+    ],
     "/fzmtr/announcements": [
         "HankChow"
     ],
@@ -2720,6 +2724,9 @@
     ],
     "/huanqiu/news/:category?": [
         "yuxinliu-alex"
+    ],
+    "/huggingface/daily-papers": [
+        "zeyugao"
     ],
     "/hunanpea/rsks/:guid": [
         "TonyRL"
@@ -3624,6 +3631,18 @@
     ],
     "/mysql/release/:version?": [
         "nczitzk"
+    ],
+    "/nasa/apod": [
+        "nczitzk",
+        "williamgateszhao"
+    ],
+    "/nasa/apod-ncku": [
+        "nczitzk",
+        "williamgateszhao"
+    ],
+    "/nasa/apod-cn": [
+        "nczitzk",
+        "williamgateszhao"
     ],
     "/natgeo/dailyselection": [
         "OrangeEd1t"
@@ -4542,7 +4561,8 @@
         "LyleLee",
         "HenryQW",
         "proletarius101",
-        "black-desk"
+        "black-desk",
+        "nczitzk"
     ],
     "/rfa/:language?/:channel?/:subChannel?": [
         "zphw"
@@ -5413,7 +5433,8 @@
         "sakamossan"
     ],
     "/twitter/tweet/:id/status/:status/:original?": [
-        "LarchLiu"
+        "LarchLiu",
+        "Rongronggg9"
     ],
     "/twitter/user/:id/:routeParams?": [
         "DIYgod",
@@ -5864,6 +5885,9 @@
     "/xaut/rsc/:category?": [
         "mocusez",
         "light0926"
+    ],
+    "/xboxfan/news": [
+        "XXY233"
     ],
     "/xiaohongshu/board/:board_id": [
         "lotosbin"
@@ -6704,7 +6728,6 @@
     "/shuhui/comics/:id": [],
     "/asahi/area/:id": [],
     "/asahi/:genre?/:category?": [],
-    "/fx678/kx": [],
     "/soundcloud/tracks/:user": [],
     "/dilidili/fanju/:id": [],
     "/qtfyfl/:category": [],
@@ -7147,9 +7170,6 @@
     "/souyun/today": [],
     "/bioon/latest": [],
     "/soomal/topics/:category/:language?": [],
-    "/nasa/apod": [],
-    "/nasa/apod-ncku": [],
-    "/nasa/apod-cn": [],
     "/justrun": [],
     "/fjnews/:city/:limit": [],
     "/fjnews/jjnews": [],
