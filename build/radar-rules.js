@@ -1,4 +1,14 @@
-({ "163.com":{ _name:"网易",
+({ "81.cn":{ _name:"中国军网",
+    "81rc":[ { title:"军队人才网",
+        docs:"https://docs.rsshub.app/government.html#zhon-guo-jun-wang-jun-dui-ren-cai-wang",
+        source:[ "/" ],
+        target:(params, url) => {
+                    url = new URL(url);
+                    const path = url.href.match(/81rc\.81\.cn(.*?)/).replace(/\/index\.html$/, '');
+
+                    return `/81/81rc${path === '/' ? '' : path}`;
+                } } ] },
+  "163.com":{ _name:"网易",
     ds:[ { title:"大神",
         docs:"https://docs.rsshub.app/game.html#wang-yi-da-shen",
         source:"/user/:id",
@@ -7016,6 +7026,17 @@
         source:[ "/:source/user/:id",
           "/" ],
         target:"/kemono/:source?/:id?" } ] },
+  "keylol.com":{ _name:"其乐",
+    ".":[ { title:"论坛",
+        docs:"https://docs.rsshub.app/game.html#qi-le-lun-tan",
+        source:[ "/:category",
+          "/" ],
+        target:(params, url) => {
+                    url = new URL(url);
+                    const path = url.href.match(/keylol\.com\/(forum.php\?.*|f\d+-\d+)?/).replace(/forum.php\?/, '')[1];
+
+                    return `/keylol${path ? `/${path}` : ''}`;
+                } } ] },
   "kimlaw.or.kr":{ _name:"韓國海事法學會",
     ".":[ { title:"学术论文",
         docs:"https://docs.rsshub.app/study.html#han-guo-hai-shi-fa-xue-hui",
@@ -10505,6 +10526,11 @@
         source:[ "/viewall",
           "/" ],
         target:"/setn/女孩" } ] },
+  "shcstheatre.com":{ _name:"上海文化广场",
+    www:[ { title:"节目列表",
+        docs:"https://docs.rsshub.app/shopping.html#shang-hai-wen-hua-guang-chang-jie-mu-lie-biao",
+        source:[ "/Program/programList.aspx" ],
+        target:"/shcstheatre/programs" } ] },
   "shiep.edu.cn":{ _name:"上海电力大学",
     bwc:[ { title:"武装部保卫处",
         docs:"https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
@@ -10855,6 +10881,115 @@
         docs:"https://docs.rsshub.app/bbs.html#di-yi-hui-suo",
         source:[ "/forum/:id" ],
         target:(params) => `/sis001/forum/${params.id.replace('forum-', '').replace('-1.html', '')}` } ] },
+  "sjtu.edu.cn":{ _name:"上海交通大学",
+    "bjwb.seiee":[ { title:"电子信息与电气工程学院",
+        docs:"https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue",
+        source:[ "/seiee/list/:type",
+          "/bkjwb/list/:type",
+          "/xsb/list/:type" ],
+        target:(params) => {
+                    let type = '';
+                    switch (params.type) {
+                        // /sjtu/seiee/academic
+                        case '683-1-20.htm':
+                            type = 'academic';
+                            break;
+                        // /sjtu/seiee/bjwb/:type
+                        case '1503-1-20.htm':
+                            type = 'bjwb/academic';
+                            break;
+                        case '1505-1-20.htm':
+                            type = 'bjwb/academic';
+                            break;
+                        case '1506-1-20.htm':
+                            type = 'bjwb/postgraduate';
+                            break;
+                        case '1507-1-20.htm':
+                            type = 'bjwb/abroad';
+                            break;
+                        case '2281-1-20.htm':
+                            type = 'bjwb/international';
+                            break;
+                        // /sjtu/seiee/xsb/:type?
+                        case '2938-1-20.htm':
+                            type = 'xsb/news';
+                            break;
+                        case '611-1-20.htm':
+                            type = 'xsb/scholarship';
+                            break;
+                        case '2676-1-20.htm':
+                            type = 'xsb/activity';
+                            break;
+                        case '1981-1-20.htm':
+                            type = 'xsb/lecture';
+                            break;
+                        case '705-1-20.htm':
+                            type = 'xsb/all';
+                            break;
+                        case '1001-1-20.htm':
+                            type = 'xsb/financialAid';
+                            break;
+                        case '3016-1-20.htm':
+                            type = 'xsb/zhcp';
+                            break;
+                        default:
+                            return null;
+                    }
+                    return `/sjtu/seiee/${type}`;
+                } } ],
+    gs:[ { title:"研究生通知公告",
+        docs:"https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue-yan-jiu-sheng-tong-zhi-gong-gao",
+        source:[ "/announcement/:type" ],
+        target:"/sjtu/gs/:type" } ],
+    jwc:[ { title:"教务处通知公告",
+        docs:"https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue",
+        source:[ "/xwtg/:type" ],
+        target:(params) => {
+                    let type = '';
+                    switch (params.type) {
+                        case 'xwzx.htm':
+                            type = 'news';
+                            break;
+                        case 'tztg.htm':
+                        case '':
+                            type = 'notice';
+                            break;
+                        case 'jxyx.htm':
+                            type = 'operation';
+                            break;
+                        case 'zcxw.htm':
+                            type = 'affairs';
+                            break;
+                        case 'yjb.htm':
+                            type = 'yjb';
+                            break;
+                        case 'jgb.htm':
+                            type = 'jgb';
+                            break;
+                        case 'zhb.htm':
+                            type = 'zhb';
+                            break;
+                        case 'yywz.htm':
+                            type = 'language';
+                            break;
+                        case 'ghyzb.htm':
+                            type = 'party';
+                            break;
+                        case 'tsjy.htm':
+                            type = 'ge';
+                            break;
+                        default:
+                            type = 'notice';
+                            break;
+                    }
+                    return `/sjtu/jwc/${type}`;
+                } } ],
+    tongqu:[ { title:"同去网最新活动",
+        docs:"https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue" } ],
+    yzb:[ { title:"研究生招生网招考信息",
+        docs:"https://docs.rsshub.app/university.html#shang-hai-jiao-tong-da-xue",
+        source:[ "/index/zkxx/:type" ],
+        target:(params) => `/sjtu/yzb/zkxx/${params.type.replace('.htm', '')}` } ] },
   "skysports.com":{ _name:"Sky Sports",
     ".":[ { title:"News",
         docs:"https://docs.rsshub.app/new-media.html#sky-sports-news",
@@ -11670,6 +11805,11 @@
         source:[ "/:hub",
           "/" ],
         target:"/theverge/:hub?" } ] },
+  "threads.net":{ _name:"Threads",
+    ".":[ { title:"User timeline",
+        docs:"https://docs.rsshub.app/en/social-media.html#threads",
+        source:[ "/:user" ],
+        target:(params) => `/threads/${params.user.substring(1)}` } ] },
   "thwiki.cc":{ _name:"THBWiki",
     ".":[ { title:"日历",
         docs:"https://docs.rsshub.app/#thbwiki",
