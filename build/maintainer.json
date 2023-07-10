@@ -3494,6 +3494,9 @@
     "/macmenubar/recently/:category?": [
         "5upernova-heng"
     ],
+    "/macupdate/app/:appId/:appSlug?": [
+        "TonyRL"
+    ],
     "/magazinelib/latest-magazine/:query?": [
         "NavePnow"
     ],
