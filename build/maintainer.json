@@ -728,10 +728,10 @@
     "/bilibili/user/fav/:uid/:disableEmbed?": [
         "DIYgod"
     ],
-    "/bilibili/user/followers/:uid": [
+    "/bilibili/user/followers/:uid/:loginUid": [
         "Qixingchen"
     ],
-    "/bilibili/user/followings/:uid": [
+    "/bilibili/user/followings/:uid/:loginUid": [
         "Qixingchen"
     ],
     "/bilibili/user/video/:uid/:disableEmbed?": [
@@ -1434,6 +1434,9 @@
     ],
     "/dhu/jiaowu/news/:type?": [
         "KiraKiseki"
+    ],
+    "/dhu/news/xsxx": [
+        "fox2049"
     ],
     "/dhu/xxgk/news": [
         "KiraKiseki"
@@ -2249,6 +2252,9 @@
     "/gov/nrta/news/:category?": [
         "yuxinliu-alex"
     ],
+    "/gov/nrta/dsj/:category?": [
+        "nczitzk"
+    ],
     "/gov/nsfc/news/:type?": [
         "Derekmini",
         "nczitzk"
@@ -2736,6 +2742,9 @@
     ],
     "/hunanpea/rsks/:guid": [
         "TonyRL"
+    ],
+    "/huoxian/zone": [
+        "p7e4"
     ],
     "/hupu/all/:id?": [
         "nczitzk"
@@ -4755,6 +4764,9 @@
     "/sdzk/:bcid?/:cid?": [
         "nczitzk"
     ],
+    "/sec-in/": [
+        "p7e4"
+    ],
     "/secnews/index": [
         "kaiili"
     ],
@@ -6066,6 +6078,9 @@
     ],
     "/yahoo/news/:region/:category?": [
         "KeiLongW"
+    ],
+    "/yangtzeu/dongke/:path+": [
+        "nczitzk"
     ],
     "/yaohuo/": [
         "nczitzk"

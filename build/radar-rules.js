@@ -3043,6 +3043,10 @@
   "dhu.edu.cn":{ _name:"东华大学",
     jw:[ { title:"教务处通知",
         docs:"https://docs.rsshub.app/university.html#dong-hua-da-xue" } ],
+    news:[ { title:"学术信息",
+        docs:"https://docs.rsshub.app/university.html#dong-hua-da-xue",
+        source:[ "/6410" ],
+        target:"/dhu/news/xsxx" } ],
     xxgk:[ { title:"最新信息公开",
         docs:"https://docs.rsshub.app/university.html#dong-hua-da-xue" } ],
     yjs:[ { title:"研究生信息",
@@ -4800,7 +4804,17 @@
     ".":[ { title:"分类",
         docs:"https://docs.rsshub.app/government.html#guo-jia-guang-bo-dian-shi-zong-ju",
         source:[ "/col/*category" ],
-        target:(params) => `/gov/nrta/news/${params.category.replace('col', '').replace('/index.html', '')}` } ] },
+        target:(params) => `/gov/nrta/news/${params.category.replace('col', '').replace('/index.html', '')}` } ],
+    dsj:[ { title:"电视剧政务平台",
+        docs:"https://docs.rsshub.app/government.html#guo-jia-guang-bo-dian-shi-zong-ju",
+        source:[ "/tims/site/views/applications.shanty",
+          "/" ],
+        target:(params, url) => {
+                    url = new URL(url);
+                    const category = url.searchParams.get('appName');
+
+                    return `/gov/nrta/dsj/${category}`;
+                } } ] },
   "nsfc.gov.cn":{ _name:"国家自然科学基金委员会",
     ".":[ { title:"基金要闻",
         docs:"https://docs.rsshub.app/other.html#guo-jia-zi-ran-ke-xue-ji-jin-wei-yuan-hui-ji-jin-yao-wen",
@@ -5543,6 +5557,9 @@
         docs:"https://docs.rsshub.app/study.html#hu-nan-ren-shi-kao-shi-wang",
         source:[ "/Category/:guid/ArticlesByCategory.do" ],
         target:"/hunanpea/rsks/:guid" } ] },
+  "huoxian.cn":{ _name:"火线",
+    zone:[ { title:"Zone",
+        docs:"https://docs.rsshub.app/bbs.html#huo-xian" } ] },
   "hupu.com":{ _name:"虎扑",
     "":[ { title:"首页",
         docs:"https://docs.rsshub.app/bbs.html#hu-pu-shou-ye",
@@ -6869,6 +6886,18 @@
       { title:"圈子 - 纯文字",
         docs:"https://docs.rsshub.app/social-media.html#ji-ke",
         source:"/topics/:id",
+        target:"/jike/topic/text/:id" } ],
+    web:[ { title:"用户动态",
+        docs:"https://docs.rsshub.app/social-media.html#ji-ke",
+        source:"/u/:uid",
+        target:"/jike/user/:uid" },
+      { title:"圈子",
+        docs:"https://docs.rsshub.app/social-media.html#ji-ke",
+        source:"/topic/:id",
+        target:"/jike/topic/:id" },
+      { title:"圈子 - 纯文字",
+        docs:"https://docs.rsshub.app/social-media.html#ji-ke",
+        source:"/topic/:id",
         target:"/jike/topic/text/:id" } ] },
   "jin10.com":{ _name:"金十数据",
     ".":[ { title:"市场快讯",
@@ -10455,6 +10484,9 @@
                     const cid = new URL(url).searchParams.get('CID');
                     return `/sdzk${bcid ? `/${bcid}${cid ? `/${cid}` : ''}` : ''}`;
                 } } ] },
+  "sec-in.com":{ _name:"SecIN信息安全技术社区",
+    ".":[ { title:"最新文章",
+        docs:"https://docs.rsshub.app/bbs.html#secin-xin-xi-an-quan-ji-shu-she-qu" } ] },
   "secrss.com":{ _name:"安全内参",
     ".":[ { title:"分类",
         docs:"https://docs.rsshub.app/programming.html#an-quan-nei-can",
@@ -13202,6 +13234,17 @@
         docs:"https://docs.rsshub.app/traditional-media.html#yahoo",
         source:[ "/" ],
         target:"/yahoo/news/:region/:category?" } ] },
+  "yangtzeu.edu.cn":{ _name:"长江大学",
+    ".":[ { title:"动物科学学院",
+        docs:"https://docs.rsshub.app/universities.html#chang-jiang-da-xue-dong-wu-ke-xue-xue-yuan",
+        source:[ "/:category",
+          "/" ],
+        target:(params, url) => {
+                    url = new URL(url);
+                    const path = /\.edu\.cn(.*?)\.htm/.test(url.href) ? url.href.match(/\.edu\.cn(.*?)\.htm/)[1] : '';
+
+                    return `/yangtzeu/dongke${path}`;
+                } } ] },
   "yaohuo.me":{ _name:"妖火",
     ".":[ { title:"首页",
         docs:"https://docs.rsshub.app/new-media.html#yao-huo-shou-ye",
