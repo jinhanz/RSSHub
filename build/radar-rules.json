@@ -1424,6 +1424,28 @@
       }
     ]
   },
+  "agemys.org": {
+    "_name": "AGE动漫",
+    ".": [
+      {
+        "title": "最近更新",
+        "docs": "https://docs.rsshub.app/anime.html#age-dong-man",
+        "source": [
+          "/update",
+          "/"
+        ],
+        "target": "/agefans/update"
+      },
+      {
+        "title": "番剧详情",
+        "docs": "https://docs.rsshub.app/anime.html#age-dong-man",
+        "source": [
+          "/detail/:id"
+        ],
+        "target": "/agefans/detail/:id"
+      }
+    ]
+  },
   "aotter.net": {
     "_name": "電獺少女",
     "agirls": [
@@ -3505,6 +3527,16 @@
       }
     ]
   },
+  "bsky.app": {
+    "_name": "Bluesky",
+    ".": [
+      {
+        "title": "关键词",
+        "docs": "https://docs.rsshub.app/social-media.html#bluesky-bsky",
+        "source": "/search"
+      }
+    ]
+  },
   "btbtt20.com": {
     "_name": "BT之家",
     ".": [
@@ -4446,6 +4478,14 @@
           "/:user/:repo/:type/:number"
         ],
         "target": "/github/comments/:user/:repo/:number"
+      },
+      {
+        "title": "Issue & Pull Request comments",
+        "docs": "https://docs.rsshub.app/programming.html#github",
+        "source": [
+          "/:user/:repo/:type"
+        ],
+        "target": "/github/comments/:user/:repo"
       },
       {
         "title": "仓库 Contributors",
@@ -9318,6 +9358,16 @@
           "/"
         ]
       }
+    ],
+    "wsbs.wgj": [
+      {
+        "title": "上海市文旅局审批公告",
+        "docs": "https://docs.rsshub.app/government.html#shang-hai-shi-ren-min-zheng-fu-shang-hai-shi-wen-lv-ju-shen-pi-gong-gao",
+        "source": [
+          "/"
+        ],
+        "target": "/gov/shanghai/wgj"
+      }
     ]
   },
   "shaanxi.gov.cn": {
@@ -11733,17 +11783,19 @@
     "_name": "煎蛋",
     ".": [
       {
-        "title": "首页",
-        "docs": "https://docs.rsshub.app/picture.html#jian-dan-shou-ye",
+        "title": "首页/板块/热榜",
+        "docs": "https://docs.rsshub.app/picture.html#jian-dan",
         "source": [
           "/:category",
           "/"
         ],
         "target": "/jandan/:category?"
-      },
+      }
+    ],
+    "i": [
       {
-        "title": "板块",
-        "docs": "https://docs.rsshub.app/picture.html#jian-dan-ban-kuai",
+        "title": "首页/板块/热榜",
+        "docs": "https://docs.rsshub.app/picture.html#jian-dan",
         "source": [
           "/:category",
           "/"
@@ -12910,6 +12962,14 @@
         "docs": "https://docs.rsshub.app/multimedia.html#javdb-pian-shang",
         "source": [
           "/makers/:id",
+          "/"
+        ]
+      },
+      {
+        "title": "清单",
+        "docs": "https://docs.rsshub.app/multimedia.html#javdb-qing-dan",
+        "source": [
+          "/lists/:id/",
           "/"
         ]
       }
@@ -17258,7 +17318,7 @@
         "source": [
           "/"
         ],
-        "target": "/ocu/it"
+        "target": "/ouc/it"
       },
       {
         "title": "信息科学与工程学院研究生招生通知公告",
@@ -17268,7 +17328,29 @@
           "/16619/list.htm",
           "/"
         ],
-        "target": "/ocu/it/postgraduate"
+        "target": "/ouc/it/postgraduate"
+      }
+    ],
+    "jwc": [
+      {
+        "title": "教务处",
+        "docs": "https://docs.rsshub.app/university.html#zhong-guo-hai-yang-da-xue",
+        "source": [
+          "/",
+          "/6517/list.htm"
+        ],
+        "target": "/ouc/jwc"
+      }
+    ],
+    "jwgl": [
+      {
+        "title": "选课信息教务通知",
+        "docs": "https://docs.rsshub.app/university.html#zhong-guo-hai-yang-da-xue",
+        "source": [
+          "/cas/login.action",
+          "/public/SchoolNotice.jsp"
+        ],
+        "target": "/ouc/jwgl"
       }
     ],
     "yz": [
@@ -17278,7 +17360,7 @@
         "source": [
           "/5926/list.htm"
         ],
-        "target": "/ocu/yjs"
+        "target": "/ouc/yjs"
       }
     ]
   },
@@ -19815,6 +19897,16 @@
         "target": "/shiep/jwc/:id"
       }
     ],
+    "jxfz": [
+      {
+        "title": "电力装备设计与制造虚拟仿真中心",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:id/list.htm"
+        ],
+        "target": "/shiep/jxfz/:id"
+      }
+    ],
     "kczx": [
       {
         "title": "能源电力科创中心",
@@ -19885,6 +19977,16 @@
         "target": "/shiep/news/:id"
       }
     ],
+    "nydlzk": [
+      {
+        "title": "能源电力智库",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:id/list.htm"
+        ],
+        "target": "/shiep/nydlzk/:id"
+      }
+    ],
     "office": [
       {
         "title": "校长办公室（档案馆）",
@@ -19893,6 +19995,16 @@
           "/:id/list.htm"
         ],
         "target": "/shiep/office/:id"
+      }
+    ],
+    "rpstec": [
+      {
+        "title": "国家新能源电力系统实验教学示范中心",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:id/list.htm"
+        ],
+        "target": "/shiep/rpstec/:id"
       }
     ],
     "rsc": [
@@ -19943,6 +20055,16 @@
           "/:id/list.htm"
         ],
         "target": "/shiep/slxy/:id"
+      }
+    ],
+    "spgc": [
+      {
+        "title": "智能发电实验教学中心",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:id/list.htm"
+        ],
+        "target": "/shiep/spgc/:id"
       }
     ],
     "sysyzcglc": [
@@ -20073,6 +20195,16 @@
           "/:id/list.htm"
         ],
         "target": "/shiep/zdhxy/:id"
+      }
+    ],
+    "ztjy": [
+      {
+        "title": "学习路上",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:id/list.htm"
+        ],
+        "target": "/shiep/ztjy/:id"
       }
     ],
     "zs": [
@@ -23371,6 +23503,19 @@
           "/"
         ],
         "target": "/v1tx"
+      }
+    ]
+  },
+  "v2rayshare.com": {
+    "_name": "V2rayShare",
+    ".": [
+      {
+        "title": "免费节点",
+        "docs": "https://docs.rsshub.app/other.html#v2rayshare",
+        "source": [
+          "/"
+        ],
+        "target": "/v2rayshare"
       }
     ]
   },

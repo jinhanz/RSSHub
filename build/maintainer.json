@@ -873,6 +873,9 @@
     "/bse/:category?/:keyword?": [
         "nczitzk"
     ],
+    "/bsky/keyword/:keyword": [
+        "untitaker"
+    ],
     "/btzj/:category?": [
         "nczitzk"
     ],
@@ -2060,8 +2063,9 @@
     "/github/branches/:user/:repo": [
         "max-arnold"
     ],
-    "/github/comments/:user/:repo/:number": [
-        "TonyRL"
+    "/github/comments/:user/:repo/:number?": [
+        "TonyRL",
+        "FliegendeWurst"
     ],
     "/github/contributors/:user/:repo/:order?/:anon?": [
         "zoenglinghou"
@@ -2373,6 +2377,9 @@
     ],
     "/gov/shanghai/yjj/:path+": [
         "nczitzk"
+    ],
+    "/gov/shanghai/wgj/:page?": [
+        "gideonsenku"
     ],
     "/gov/shenzhen/hrss/szksy/:caty/:page?": [
         "zlasd"
@@ -3150,25 +3157,28 @@
     "/javbus/en/western/search/:keyword": [
         "nczitzk"
     ],
-    "/javdb/home/:category?/:sort?/:filter?": [
-        "nczitzk"
-    ],
-    "/javdb/search/:keyword?/:filter?": [
-        "nczitzk"
-    ],
-    "/javdb/tags/:query?/:category?": [
-        "nczitzk"
-    ],
     "/javdb/actors/:id/:filter?": [
         "nczitzk"
     ],
+    "/javdb/home/:category?/:sort?/:filter?": [
+        "nczitzk"
+    ],
+    "/javdb/lists/:id/:filter?/:sort?": [
+        "dddepg"
+    ],
     "/javdb/makers/:id/:filter?": [
+        "nczitzk"
+    ],
+    "/javdb/rankings/:category?/:time?": [
+        "nczitzk"
+    ],
+    "/javdb/search/:keyword?/:filter?/:sort?": [
         "nczitzk"
     ],
     "/javdb/series/:id/:filter?": [
         "nczitzk"
     ],
-    "/javdb/rankings/:category?/:time?": [
+    "/javdb/tags/:query?/:category?": [
         "nczitzk"
     ],
     "/javdb/:category?/:sort?/:filter?": [
@@ -4177,6 +4187,12 @@
     "/ouc/it/:type?": [
         "GeoffreyChen777"
     ],
+    "/ouc/jwc": [
+        "3401797899"
+    ],
+    "/ouc/jwgl": [
+        "3401797899"
+    ],
     "/ouc/yjs": [
         "shengmaosu"
     ],
@@ -4447,10 +4463,10 @@
         "miles170"
     ],
     "/qidian/chapter/:id": [
-        "Chingyat"
+        "fuzy112"
     ],
     "/qidian/forum/:id": [
-        "Chingyat"
+        "fuzy112"
     ],
     "/qidian/free/:type?": [
         "LogicJake"
@@ -5699,6 +5715,9 @@
     ],
     "/v1tx/": [
         "TonyRL"
+    ],
+    "/v2rayshare/": [
+        "77taibai"
     ],
     "/vcb-s/": [
         "cxfksword"
