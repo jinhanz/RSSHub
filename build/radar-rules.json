@@ -2838,10 +2838,16 @@
         "target": "/bilibili/online"
       },
       {
-        "title": "bilibili热搜",
+        "title": "热搜",
         "docs": "https://docs.rsshub.app/social-media.html#bilibili",
         "source": "/",
         "target": "/bilibili/hot-search"
+      },
+      {
+        "title": "频道排行榜",
+        "docs": "https://docs.rsshub.app/social-media.html#bilibili",
+        "source": "/v/channel/:channelid/",
+        "target": "/bilibili/channel/:channelid/hot"
       }
     ],
     "space": [
@@ -18631,6 +18637,20 @@
           "/:user"
         ],
         "target": "/rattibha/user/:user"
+      }
+    ]
+  },
+  "rawkuma.com": {
+    "_name": "Rawkuma",
+    ".": [
+      {
+        "title": "Manga",
+        "docs": "https://docs.rsshub.app/anime.html#rawkuma-manga",
+        "source": [
+          "/manga/:id",
+          "/"
+        ],
+        "target": "/rawkuma/manga/:id"
       }
     ]
   },
