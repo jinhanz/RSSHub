@@ -2765,6 +2765,18 @@
     "/hunanpea/rsks/:guid": [
         "TonyRL"
     ],
+    "/hunau/gfxy/:type?/:page?": [
+        "lcandy2"
+    ],
+    "/hunau/ied/:type?/:category?/:page?": [
+        "lcandy2"
+    ],
+    "/hunau/jwc/:type?/:page?": [
+        "lcandy2"
+    ],
+    "/hunau/xky/:type?/:page?": [
+        "lcandy2"
+    ],
     "/huoxian/zone": [
         "p7e4"
     ],
