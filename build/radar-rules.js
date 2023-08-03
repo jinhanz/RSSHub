@@ -11779,8 +11779,7 @@
         docs:"https://docs.rsshub.app/social-media.html#telegram",
         source:"/:username",
         target:(params, url, document) => {
-                    const isChannel = document && document.querySelector('.tgme_action_button_label');
-                    if (isChannel) {
+                    if (document?.querySelector('a[href^="/s/"]')) {
                         return '/telegram/channel/:username';
                     }
                 } },
