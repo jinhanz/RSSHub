@@ -1202,7 +1202,8 @@
         "nczitzk"
     ],
     "/cnki/journals/:name": [
-        "Fatpandac"
+        "Fatpandac",
+        "Derekmini"
     ],
     "/cnki/journals/debut/:name": [
         "Fatpandac"
@@ -1503,6 +1504,12 @@
     ],
     "/dmzj/news/:category?": [
         "vzz64"
+    ],
+    "/dnaindia/:category": [
+        "Rjnishant530"
+    ],
+    "/dnaindia/topic/:topic": [
+        "Rjnishant530"
     ],
     "/dockerhub/build/:owner/:image/:tag?": [
         "HenryQW"
@@ -4694,6 +4701,12 @@
     "/ruc/hr/:category?": [
         "nczitzk"
     ],
+    "/runtrail": [
+        "TonyRL"
+    ],
+    "/runtrail/": [
+        "TonyRL"
+    ],
     "/rustcc/jobs": [
         "CcccFz"
     ],
@@ -5063,6 +5076,9 @@
     "/spotify/saved/:limit?": [
         "outloudvi"
     ],
+    "/spotify/show/:id": [
+        "caiohsramos"
+    ],
     "/spotify/top/tracks": [
         "outloudvi"
     ],
@@ -5148,6 +5164,9 @@
     ],
     "/stheadline/std/realtime/:category*": [
         "TonyRL"
+    ],
+    "/stockedge/daily-updates/news": [
+        "Rjnishant530"
     ],
     "/storm/:category?/:id?": [
         "nczitzk"
@@ -5366,6 +5385,9 @@
     ],
     "/thecover/channel/:id?": [
         "yuxinliu-alex"
+    ],
+    "/thehindu/topic/:topic": [
+        "TonyRL"
     ],
     "/theinitium/author/:type/:language?": [
         "AgFlore"
@@ -6061,6 +6083,16 @@
     "/xidian/jwc/:category?": [
         "ShadowySpirits"
     ],
+    "/ximalaya/:type/:id/:all?": [
+        "lengthmin",
+        "jjeejj",
+        "prnake"
+    ],
+    "/ximalaya/:type/:id/:all/:shownote?": [
+        "lengthmin",
+        "jjeejj",
+        "prnake"
+    ],
     "/xjtu/2yuan/news/:id?": [
         "nczitzk"
     ],
@@ -6507,8 +6539,6 @@
     "/pornhub/:language?/pornstar/:username/:sort?": [],
     "/yande.re/post/popular_recent": [],
     "/yande.re/post/popular_recent/:period": [],
-    "/ximalaya/:type/:id/:all?": [],
-    "/ximalaya/:type/:id/:all/:shownote?": [],
     "/eztv/torrents/:imdb_id": [],
     "/bjnews/:cat": [],
     "/bjnews/epaper/:cat": [],
