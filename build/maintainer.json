@@ -377,6 +377,12 @@
     "/aliresearch/information/:type?": [
         "nczitzk"
     ],
+    "/alistapart/": [
+        "Rjnishant530"
+    ],
+    "/alistapart/:topic": [
+        "Rjnishant530"
+    ],
     "/aliyun/database_month": [
         "junbaor"
     ],
@@ -4579,6 +4585,12 @@
     "/qq88/:category?": [
         "nczitzk"
     ],
+    "/qqorw/:category?": [
+        "nczitzk"
+    ],
+    "/qqorw": [
+        "nczitzk"
+    ],
     "/quicker/qa/:category?/:state?": [
         "Cesaryuan",
         "nczitzk"
@@ -5015,6 +5027,9 @@
     ],
     "/slowmist/:type?": [
         "AtlasQuan"
+    ],
+    "/smashingmagazine/:category?": [
+        "Rjnishant530"
     ],
     "/smzdm/article/:uid": [
         "xfangbao"

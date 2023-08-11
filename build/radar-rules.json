@@ -1669,6 +1669,27 @@
       }
     ]
   },
+  "alistapart.com": {
+    "_name": "A List Apart",
+    ".": [
+      {
+        "title": "Articles",
+        "docs": "https://docs.rsshub.app/en/programming.html#a-list-apart",
+        "source": [
+          "/articles/"
+        ],
+        "target": "/alistapart"
+      },
+      {
+        "title": "Topics",
+        "docs": "https://docs.rsshub.app/en/programming.html#a-list-apart",
+        "source": [
+          "/blog/topic/:topic"
+        ],
+        "target": "/alistapart/:topic"
+      }
+    ]
+  },
   "aliyun.com": {
     "_name": "阿里云",
     "developer": [
@@ -18626,6 +18647,20 @@
       }
     ]
   },
+  "qqorw.cn": {
+    "_name": "早报网",
+    ".": [
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/new-media.html#zao-bao-wang-fen-lei",
+        "source": [
+          "/:category",
+          "/"
+        ],
+        "target": "/qqorw/:category?"
+      }
+    ]
+  },
   "getquicker.net": {
     "_name": "Quicker",
     ".": [
@@ -20749,6 +20784,27 @@
           "/zh/news.html"
         ],
         "target": "/slowmist/:type?"
+      }
+    ]
+  },
+  "smashingmagazine.com": {
+    "_name": "Smashing Magazine",
+    ".": [
+      {
+        "title": "Articles",
+        "docs": "https://docs.rsshub.app/en/programming.html#a-list-apart",
+        "source": [
+          "/articles/"
+        ],
+        "target": "/smashingmagazine"
+      },
+      {
+        "title": "Category",
+        "docs": "https://docs.rsshub.app/en/programming.html#a-list-apart",
+        "source": [
+          "/category/:category"
+        ],
+        "target": "/smashingmagazine/:category"
       }
     ]
   },
