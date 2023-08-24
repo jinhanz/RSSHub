@@ -350,6 +350,10 @@
     "/aijishu/u/:name": [
         "bigfei"
     ],
+    "/aip/:pub/:jrn": [
+        "Derekmini",
+        "auto-bot-ty"
+    ],
     "/airchina/announcement": [
         "LandonLi"
     ],
@@ -552,10 +556,10 @@
     "/baidu/gushitong/index": [
         "CaoMeiYouRen"
     ],
-    "/baidu/tieba/forum/:kw": [
+    "/baidu/tieba/forum/good/:kw/:cid?/:sortBy?": [
         "u3u"
     ],
-    "/baidu/tieba/forum/good/:kw/:cid?": [
+    "/baidu/tieba/forum/:kw/:sortBy?": [
         "u3u"
     ],
     "/baidu/tieba/post/:id": [
@@ -1496,6 +1500,9 @@
     "/discord/channel/:channelId": [
         "TonyRL"
     ],
+    "/discourse/:configId/posts": [
+        "dzx-dzx"
+    ],
     "/disinfo/publications": [
         "nczitzk"
     ],
@@ -1510,6 +1517,9 @@
     ],
     "/distill/": [
         "nczitzk"
+    ],
+    "/dlnews/:category?": [
+        "Rjnishant530"
     ],
     "/dlsite/campaign/:type/:free?": [
         "cssxsh"
@@ -3874,10 +3884,10 @@
     "/newsmarket/:category?": [
         "nczitzk"
     ],
-    "/newzmz/:category?": [
+    "/newzmz/:category?/:downLinkType?": [
         "nczitzk"
     ],
-    "/newzmz/:id?": [
+    "/newzmz/:id?/:downLinkType?": [
         "nczitzk"
     ],
     "/nextapple/realtime/:category?": [
@@ -4142,6 +4152,9 @@
     "/nuist/yjs/:path+": [
         "gylidian",
         "nczitzk"
+    ],
+    "/nwafu/:type?": [
+        "karinido"
     ],
     "/nyaa/search/:query?": [
         "Lava-Swimmer",
@@ -4813,14 +4826,6 @@
     ],
     "/sciencenet/user/:id": [
         "nczitzk"
-    ],
-    "/scitation/:pub/:jrn": [
-        "Derekmini",
-        "auto-bot-ty"
-    ],
-    "/scitation/:pub/:jrn/:sec": [
-        "Derekmini",
-        "auto-bot-ty"
     ],
     "/scmp/:category_id": [
         "proletarius101"
@@ -5624,6 +5629,9 @@
     "/tongji/yjs": [
         "shengmaosu"
     ],
+    "/tophub/:id": [
+        "LogicJake"
+    ],
     "/topys/:keyword?": [
         "nczitzk"
     ],
@@ -6144,6 +6152,9 @@
         "DIYgod",
         "bigfei"
     ],
+    "/xiaote/news": [
+        "wxsimon"
+    ],
     "/xiaoyuzhou/": [
         "prnake",
         "Maecenas"
@@ -6490,6 +6501,18 @@
     "/zhihu/weekly": [
         "LogicJake"
     ],
+    "/zhihu/xhu/collection/:id": [
+        "JimenezLi"
+    ],
+    "/zhihu/xhu/question/:questionId/:sortBy?": [
+        "JimenezLi"
+    ],
+    "/zhihu/xhu/topic/:topicId": [
+        "JimenezLi"
+    ],
+    "/zhihu/xhu/zhuanlan/:id": [
+        "JimenezLi"
+    ],
     "/zhihu/zhuanlan/:id": [
         "DIYgod"
     ],
@@ -6715,15 +6738,6 @@
     "/sctu/xgxy/:id": [],
     "/sctu/jwc/:type?": [],
     "/sctu/jwc/:type/:id": [],
-    "/nwafu/news": [],
-    "/nwafu/jiaowu": [],
-    "/nwafu/gs": [],
-    "/nwafu/lib": [],
-    "/nwafu/nic": [],
-    "/nwafu/54youth": [],
-    "/nwafu/jcc": [],
-    "/nwafu/yjshy": [],
-    "/nwafu/cie": [],
     "/ynu/grs/zytz": [],
     "/ynu/grs/qttz/:category": [],
     "/ynu/jwc/:category": [],
@@ -6905,7 +6919,6 @@
     "/blogs/wang54/:id?": [],
     "/blogs/wordpress/:domain/:https?": [],
     "/xici/:id?": [],
-    "/tophub/:id": [],
     "/vgtime/news": [],
     "/vgtime/release": [],
     "/vgtime/keyword/:keyword": [],
