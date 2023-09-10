@@ -568,6 +568,9 @@
     "/baidu/tieba/post/lz/:id": [
         "u3u"
     ],
+    "/baidu/tieba/search/:qw/:routeParams?": [
+        "JimenezLi"
+    ],
     "/baidu/tieba/user/:uid": [
         "igxlin",
         "nczitzk"
