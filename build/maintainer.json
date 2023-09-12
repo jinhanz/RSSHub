@@ -3733,6 +3733,9 @@
     "/magazinelib/latest-magazine/:query?": [
         "NavePnow"
     ],
+    "/mail/imap/:email/:folder*": [
+        "kt286"
+    ],
     "/mangadex/:id/:lang?": [
         "vzz64"
     ],
@@ -7274,7 +7277,6 @@
     "/sans/summit_archive": [],
     "/latexstudio/home": [],
     "/jskou/:type?": [],
-    "/mail/imap/:email": [],
     "/network360/jobs": [],
     "/zhilian/:city/:keyword": [],
     "/nciae/news": [],
