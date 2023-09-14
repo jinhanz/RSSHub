@@ -3695,6 +3695,9 @@
     "/lovelive-anime/schedules/:serie/:category?": [
         "axojhf"
     ],
+    "/lsnu/jiaowc/tzgg/:category?": [
+        "nyaShine"
+    ],
     "/luogu/contest": [
         "prnake"
     ],
