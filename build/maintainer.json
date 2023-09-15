@@ -2122,6 +2122,9 @@
     "/gamebase/news/:type?/:category?": [
         "nczitzk"
     ],
+    "/gamegene/news": [
+        "lone1y-51"
+    ],
     "/gamer/gnn/:category?": [
         "Arracc"
     ],
@@ -4902,6 +4905,9 @@
     ],
     "/rsshub/transform/json/:url/:routeParams": [
         "ttttmr"
+    ],
+    "/rsshub/transform/sitemap/:url/:routeParams?": [
+        "flrngel"
     ],
     "/ruancan/ruancan/category/:category?": [
         "nczitzk"
