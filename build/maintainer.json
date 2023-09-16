@@ -5026,6 +5026,9 @@
     "/scut/seie/news_center": [
         "auto-bot-ty"
     ],
+    "/scut/smae/:category?": [
+        "Ermaotie"
+    ],
     "/scut/yjs": [
         "shengmaosu"
     ],
@@ -5324,6 +5327,9 @@
     ],
     "/sputniknews/:category?/:language?": [
         "nczitzk"
+    ],
+    "/sqmc/www/:category?": [
+        "nyaShine"
     ],
     "/sse/convert/:query?": [
         "kt286"
