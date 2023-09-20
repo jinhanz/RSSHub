@@ -3493,6 +3493,9 @@
     "/kakuyomu/episode/:id": [
         "huangliangshusheng"
     ],
+    "/kamen-rider-official/news/:category?": [
+        "nczitzk"
+    ],
     "/kantarworldpanel/:region/:category?": [
         "nczitzk"
     ],
@@ -3598,6 +3601,9 @@
     ],
     "/leiphone/leiphone/newsflash": [
         "vlcheng"
+    ],
+    "/lemmy/:community/:sort?": [
+        "wb14123"
     ],
     "/lever/:domain": [
         "tsarlewey"
@@ -6417,6 +6423,12 @@
         "jjeejj",
         "prnake"
     ],
+    "/xinpianchang/discover/:params?": [
+        "nczitzk"
+    ],
+    "/xinpianchang/rank/:category?": [
+        "nczitzk"
+    ],
     "/xjtu/2yuan/news/:id?": [
         "nczitzk"
     ],
@@ -6449,6 +6461,9 @@
     ],
     "/xmnn/epaper/:id?": [
         "nczitzk"
+    ],
+    "/xmut/jwc/:type/:method": [
+        "icecliffs"
     ],
     "/xsijishe/forum/:fid": [
         "akynazh"

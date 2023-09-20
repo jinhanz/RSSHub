@@ -8140,6 +8140,16 @@
         docs:"https://docs.rsshub.app/routes/reading#kakuyomu-zhang-jie-geng-xin",
         source:[ "/works/:id" ],
         target:"/kakuyomu/episode/:id" } ] },
+  "kamen-rider-official.com":{ _name:"仮面ライダ",
+    ".":[ { title:"最新情報",
+        docs:"https://docs.rsshub.app/routes/new-media#fan-mian-%E3%83%A9%E3%82%A4%E3%83%80-zui-xin-qing-bao",
+        source:[ "/news_articles" ],
+        target:(params, url) => {
+                    url = new URL(url);
+                    const category = url.searchParams.get('category');
+
+                    return `/kamen-rider-official/news${category ? `/${category}` : ''}`;
+                } } ] },
   "kantarworldpanel.com":{ _name:"Kantar Worldpanel",
     ".":[ { title:"News Centre China Eng - News",
         docs:"https://docs.rsshub.app/routes/new-media#kanta-worldpanel-news-centre",
@@ -14862,6 +14872,24 @@
                         return '/ximalaya/:type/:id';
                     }
                 } } ] },
+  "xinpianchang.com":{ _name:"新片场",
+    ".":[ { title:"发现",
+        docs:"https://docs.rsshub.app/routes/new-media#xin-pian-chang-fa-xian",
+        source:[ "/discover/:params" ],
+        target:(params, url) => {
+                    url = new URL(url);
+                    const path = params.params ?? url.href.match(/discover\/(article.*?)/)[1];
+
+                    return `/xinpianchang/discover${path ? `/${path}` : ''}`;
+                } },
+      { title:"排行榜",
+        docs:"https://docs.rsshub.app/routes/new-media#xin-pian-chang-pai-hang-bang",
+        source:[ "/rank/:params" ],
+        target:(params, url) => {
+                    const path = params.params.match(/article-(\w+)-\d+-\d+/)[1] ?? url.href.match(/rank\/article-(\w+)-\d+-\d+/)[1];
+
+                    return `/xinpianchang/rank${path ? `/${path}` : ''}`;
+                } } ] },
   "xjtu.edu.cn":{ _name:"西安交通大学",
     "2yuan":[ { title:"第二附属医院新闻",
         docs:"https://docs.rsshub.app/routes/university#xi-an-jiao-tong-da-xue-di-er-fu-shu-yi-yuan-xin-wen",
@@ -14908,6 +14936,11 @@
         source:[ "/:id",
           "/" ],
         target:"/xmnn/epaper/:id" } ] },
+  "xmut.edu.cn":{ _name:"厦门理工学院",
+    jwc:[ { title:"教务处",
+        docs:"https://docs.rsshub.app/routes/university#xia-men-li-gong-da-xue",
+        source:[ "/:category" ],
+        target:(params) => `/xmut/jwc${params.category ? `/${params.category}` : ''}` } ] },
   "xsijishe.com":{ _name:"司机社",
     ".":[ { title:"论坛",
         docs:"https://docs.rsshub.app/routes/bbs#si-ji-she",
