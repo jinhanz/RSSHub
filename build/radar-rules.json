@@ -2078,6 +2078,27 @@
       }
     ]
   },
+  "ainvest.com": {
+    "_name": "AInvest",
+    ".": [
+      {
+        "title": "Latest Article",
+        "docs": "https://docs.rsshub.app/finance#ainvest",
+        "source": [
+          "/news"
+        ],
+        "target": "/ainvest/article"
+      },
+      {
+        "title": "Latest News",
+        "docs": "https://docs.rsshub.app/finance#ainvest",
+        "source": [
+          "/news"
+        ],
+        "target": "/ainvest/news"
+      }
+    ]
+  },
   "aip.org": {
     "_name": "American Institute of Physics",
     "pubs": [
@@ -2520,14 +2541,6 @@
   "apple.com": {
     "_name": "Apple",
     "apps": [
-      {
-        "title": "应用更新",
-        "docs": "https://docs.rsshub.app/routes/program-update#app-store-mac-app-store",
-        "source": [
-          "/:contry/app/:id"
-        ],
-        "target": "/appstore/update/:country/:id"
-      },
       {
         "title": "价格更新",
         "docs": "https://docs.rsshub.app/routes/program-update#app-store-mac-app-store",
@@ -10723,6 +10736,14 @@
           "/"
         ],
         "target": "/gov/chongqing/rsks"
+      },
+      {
+        "title": "重庆事业单位公开招聘",
+        "docs": "https://docs.rsshub.app/routes/government#chong-qing-shi-ren-min-zheng-fu",
+        "source": [
+          "/"
+        ],
+        "target": "/gov/chongqing/sydwgkzp"
       }
     ]
   },
@@ -18670,6 +18691,36 @@
       }
     ]
   },
+  "niaogebiji.com": {
+    "_name": "鸟哥笔记",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/new-media#niao-ge-bi-ji",
+        "source": [
+          "/"
+        ],
+        "target": "/niaogebiji"
+      },
+      {
+        "title": "今日事",
+        "docs": "https://docs.rsshub.app/new-media#niao-ge-bi-ji",
+        "source": [
+          "/",
+          "/bulletin"
+        ],
+        "target": "/niaogebiji"
+      },
+      {
+        "title": "分类目录",
+        "docs": "https://docs.rsshub.app/new-media#niao-ge-bi-ji",
+        "source": [
+          "/cat/:cat"
+        ],
+        "target": "/niaogebiji/cat/:cat"
+      }
+    ]
+  },
   "nifd.cn": {
     "_name": "国家金融与发展实验室",
     "www": [
@@ -23694,6 +23745,16 @@
           "/:channel/:id"
         ],
         "target": "/soundofhope/:channel/:id"
+      }
+    ]
+  },
+  "sourceforge.net": {
+    "_name": "SourceForge",
+    "www": [
+      {
+        "title": "Software",
+        "docs": "https://docs.rsshub.app/routes/program-update#sourceforge",
+        "source": "/directory"
       }
     ]
   },
