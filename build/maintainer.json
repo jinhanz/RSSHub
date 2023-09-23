@@ -2663,6 +2663,9 @@
     "/gxmzu/aitzgg": [
         "real-jiakai"
     ],
+    "/gxmzu/libzxxx": [
+        "real-jiakai"
+    ],
     "/gxmzu/yjszsgg": [
         "real-jiakai"
     ],
@@ -4450,6 +4453,9 @@
     "/oshwhub/:sortType?": [
         "tylinux"
     ],
+    "/osu/packs/:type?": [
+        "JimenezLi"
+    ],
     "/ouc/it/postgraduate": [
         "shengmaosu"
     ],
@@ -5492,6 +5498,9 @@
         "nczitzk"
     ],
     "/supchina/": [
+        "nczitzk"
+    ],
+    "/surfshark/blog/:category?": [
         "nczitzk"
     ],
     "/sustech/bidding": [
