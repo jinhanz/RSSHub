@@ -57,3 +57,5 @@ lib/v2/youtube/router.js
 # pnpm-lock.yaml
 yarn.lock
 yarn-error.log
+
+scripts/twitter-token/accounts.*
