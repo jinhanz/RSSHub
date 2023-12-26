@@ -2754,6 +2754,15 @@
   },
   "baidu.com": {
     "_name": "百度",
+    "www": [
+      {
+        "title": "搜索",
+        "docs": "https://docs.rsshub.app/routes/other#bai-du-sou-suo",
+        "source": [
+          "/"
+        ]
+      }
+    ],
     "gushitong": [
       {
         "title": "首页指数",
@@ -2801,7 +2810,7 @@
     "top": [
       {
         "title": "热搜榜单",
-        "docs": "https://docs.rsshub.app/routes/other#bai-du-re-sou",
+        "docs": "https://docs.rsshub.app/routes/other#bai-du-re-sou-bang-dan",
         "source": [
           "/board"
         ]
@@ -3308,6 +3317,17 @@
         "docs": "https://docs.rsshub.app/routes/social-media#bilibili-hui-yuan-gou-zuo-pin",
         "source": "/platform",
         "target": "/bilibili/platform/:area?/:p_type?/:uid?"
+      }
+    ]
+  },
+  "bing.com": {
+    "_name": "Bing",
+    "www": [
+      {
+        "title": "每日壁纸",
+        "docs": "https://docs.rsshub.app/routes/picture#bing-bi-zhi",
+        "source": "",
+        "target": "/bing"
       }
     ]
   },
@@ -10395,6 +10415,13 @@
   },
   "google.com": {
     "_name": "谷歌",
+    "www": [
+      {
+        "title": "搜索",
+        "docs": "https://docs.rsshub.app/routes/other#google",
+        "source": "/"
+      }
+    ],
     "chrome": [
       {
         "title": "插件更新",
@@ -25426,6 +25453,18 @@
       }
     ]
   },
+  "sogou.com": {
+    "_name": "微信",
+    "weixin": [
+      {
+        "title": "公众号（搜狗来源）",
+        "docs": "https://docs.rsshub.app/routes/new-media#wei-xin",
+        "source": [
+          "/weixin"
+        ]
+      }
+    ]
+  },
   "sohu.com": {
     "_name": "搜狐",
     ".": [
@@ -26810,6 +26849,27 @@
         "docs": "https://docs.rsshub.app/routes/traditional-media#the-atlantic",
         "source": "/:category",
         "target": "/theatlantic/:category"
+      }
+    ]
+  },
+  "theblockbeats.info": {
+    "_name": "律动",
+    "rszhaopin": [
+      {
+        "title": "快讯",
+        "docs": "https://docs.rsshub.app/routes/finance#lv-dong",
+        "source": [
+          "/"
+        ],
+        "target": "/theblockbeats/newsflash"
+      },
+      {
+        "title": "文章",
+        "docs": "https://docs.rsshub.app/routes/finance#lv-dong",
+        "source": [
+          "/"
+        ],
+        "target": "/theblockbeats/article"
       }
     ]
   },
@@ -29146,18 +29206,6 @@
       {
         "title": "公众号（wechat-feeds 来源）",
         "docs": "https://docs.rsshub.app/routes/new-media#wei-xin"
-      }
-    ]
-  },
-  "sogou.com": {
-    "_name": "微信",
-    "weixin": [
-      {
-        "title": "公众号（搜狗来源）",
-        "docs": "https://docs.rsshub.app/routes/new-media#wei-xin",
-        "source": [
-          "/weixin"
-        ]
       }
     ]
   },
@@ -31840,17 +31888,6 @@
           "/*tpath"
         ],
         "target": "/mhw/news"
-      }
-    ]
-  },
-  "bing.com": {
-    "_name": "Bing",
-    "www": [
-      {
-        "title": "每日壁纸",
-        "docs": "https://docs.rsshub.app/routes/picture#bing-bi-zhi",
-        "source": "",
-        "target": "/bing"
       }
     ]
   },

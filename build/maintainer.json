@@ -593,6 +593,9 @@
     "/baidu/gushitong/index": [
         "CaoMeiYouRen"
     ],
+    "/baidu/search/:keyword": [
+        "CaoMeiYouRen"
+    ],
     "/baidu/tieba/forum/:kw/:sortBy?": [
         "u3u"
     ],
@@ -832,7 +835,12 @@
     "/bilibili/weekly/:disableEmbed?": [
         "ttttmr"
     ],
-    "/bing": [],
+    "/bing": [
+        "FHYunCai"
+    ],
+    "/bing/search/:keyword": [
+        "CaoMeiYouRen"
+    ],
     "/biodiscover/:channel?": [
         "aidistan"
     ],
@@ -2549,6 +2557,9 @@
     ],
     "/google/scholar/:query": [
         "HenryQW"
+    ],
+    "/google/search/:keyword/:language?": [
+        "CaoMeiYouRen"
     ],
     "/google/sites/:id": [
         "hoilc"
@@ -5962,7 +5973,12 @@
     ],
     "/socialbeta/home": [],
     "/socialclub/events/:game?": [],
-    "/sogou/doodles": [],
+    "/sogou/doodles": [
+        "xyqfer"
+    ],
+    "/sogou/search/:keyword": [
+        "CaoMeiYouRen"
+    ],
     "/sohu/mp/:id": [
         "HenryQW"
     ],
@@ -6345,6 +6361,10 @@
     ],
     "/theatlantic/:category": [
         "EthanWng97"
+    ],
+    "/theblockbeats/:channel?": [
+        "Fatpandac",
+        "jameshih"
     ],
     "/thebrain/:category?": [],
     "/thecatcity/:term?": [
