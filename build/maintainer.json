@@ -4046,6 +4046,9 @@
     "/konachan/post/popular_recent/:period": [],
     "/kongfz/people/:id": [],
     "/kongfz/shop/:id/:cat?": [],
+    "/konghq/blog-posts": [
+        "piglei"
+    ],
     "/kotaku/story/:type": [],
     "/kpmg/insights": [],
     "/kuai": [],
@@ -6444,6 +6447,9 @@
     ],
     "/taptap/topic/:id/:type?/:sort?/:lang?": [
         "hoilc",
+        "TonyRL"
+    ],
+    "/tass/:category?": [
         "TonyRL"
     ],
     "/techcrunch/news": [
