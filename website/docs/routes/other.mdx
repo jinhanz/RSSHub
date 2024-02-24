@@ -424,6 +424,12 @@ It is recommended to use with clipping tools such as Notion Web Clipper.
 
 <Route author="miaoyafeng Fatpandac" example="/producthunt/today" path="/producthunt/today" />
 
+## PwC Strategy& {#pwc-strategy}
+
+### Sustainability {#pwc-strategy-sustainability}
+
+<Route author="mintyfrankie" example="/pwc/strategyand/sustainability" path="/pwc/strategyand/sustainability" puppeteer="1" />
+
 ## Remote.work {#remote-work}
 
 ### Remote.work Job Information {#remote-work-remote-work-job-information}
@@ -566,6 +572,18 @@ Specify options (in the format of query string) in parameter `routeParams` param
 
 <Route author="HenryQW" example="/wise/pair/GBP/USD" path="/wise/pair/:source/:target" paramsDesc={['Base currency abbreviation','Quote currency abbreviation']} radar="1">
   Refer to [the list of supported currencies](https://wise.com/tools/exchange-rate-alerts/).
+</Route>
+
+## World Meteorological Centre Beijing {#world-meteorological-centre-beijing}
+
+### Publish {#world-meteorological-centre-beijing-publish}
+
+<Route author="nczitzk" example="/wmc-bj/publish/CRA-Reanalysis/2m-Temperature/6-hour/index.html" path="/wmc-bj/publish/:category?" paramsDesc={['Category, can be found in URL, `CRA-Reanalysis/2m-Temperature/6-hour/index.html` by default']} radar="1">
+  :::tip
+  `category` is the text after `publish/` in the URL.
+
+  eg. The URL for [Monitoring\_CMA-RA\_2m-Temperature\_6-hour](http://www.wmc-bj.net/publish/CRA-Reanalysis/2m-Temperature/6-hour/index.html) is [http://www.wmc-bj.net/publish/CRA-Reanalysis/2m-Temperature/6-hour/index.html](http://www.wmc-bj.net/publish/CRA-Reanalysis/2m-Temperature/6-hour/index.html). The `category` for route can be represented as [`/wmc-bj/publish/CRA-Reanalysis/2m-Temperature/6-hour/index.html`](https://rsshub.app/wmc-bj/publish/CRA-Reanalysis/2m-Temperature/6-hour/index.html).
+  :::
 </Route>
 
 ## 艾瑞 {#ai-rui}
@@ -1179,6 +1197,16 @@ Specify options (in the format of query string) in parameter `routeParams` param
   | 信息快递 | 工作动态 | 专题分析 |
   | -------- | -------- | -------- |
   | xxkd     | gzdt     | ztfx     |
+</Route>
+
+## 中国兴业银行 {#zhong-guo-xing-ye-yin-hang}
+
+### 外汇牌价 {#zhong-guo-xing-ye-yin-hang-wai-hui-pai-jia}
+
+<Route author="Qixingchen" example="/cib/whpj/xh?filter_title=USD" path="/cib/whpj/:format?" paramsDesc={['输出的标题格式，默认为标题 + 所有价格。短格式仅包含货币名称。']}>
+  | 短格式 | 现汇买卖 | 现钞买卖 | 现汇买入 | 现汇卖出 | 现钞买入 | 现钞卖出 |
+  | ------ | -------- | -------- | -------- | -------- | -------- | -------- |
+  | short  | xh       | xc       | xhmr     | xhmc     | xcmr     | xcmc     |
 </Route>
 
 ## 中国银行 {#zhong-guo-yin-hang}
