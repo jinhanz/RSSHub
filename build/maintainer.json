@@ -6066,6 +6066,9 @@
         "gumibea",
         "TeamSUEP"
     ],
+    "/shisu/news/:category": [
+        "Duuckjing"
+    ],
     "/shmeea/:id?": [
         "jialinghui",
         "Misaka13514"
