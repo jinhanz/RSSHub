@@ -5319,7 +5319,6 @@
         "Maecenas",
         "nczitzk"
     ],
-    "/pcr/news": [],
     "/pcr/news-cn": [],
     "/pcr/news-tw": [],
     "/pediy/topic/:category?/:type?": [],
@@ -5528,6 +5527,9 @@
         "nczitzk"
     ],
     "/potplayer/update/:language?": [],
+    "/priconne-redive/news": [
+        "SayaSS"
+    ],
     "/producthunt/today": [
         "miaoyafeng",
         "Fatpandac"
