@@ -1329,6 +1329,9 @@
     "/civitai/models": [
         "DIYgod"
     ],
+    "/ciweimao/chapter/:id": [
+        "keocheung"
+    ],
     "/clb/commentary/:lang?": [],
     "/clickme/:site/:grouping/:name": [
         "hoilc"
@@ -3168,6 +3171,9 @@
         "hnrainll"
     ],
     "/hatena/anonymous_diary/archive": [],
+    "/hbooker/chapter/:id": [
+        "keocheung"
+    ],
     "/hbr/topic/:topic?/:type?": [
         "nczitzk"
     ],
@@ -5806,6 +5812,9 @@
     "/rsc/journal/:id/:category?": [
         "nczitzk"
     ],
+    "/rsshub/m/:key/:url": [
+        "TonyRL"
+    ],
     "/rsshub/routes/:lang?": [
         "DIYgod"
     ],
@@ -6066,6 +6075,9 @@
         "fuzy112"
     ],
     "/sexinsex/:id/:type?": [],
+    "/sfacg/novel/chapter/:id": [
+        "keocheung"
+    ],
     "/shanbay/checkin/:id": [],
     "/shanbay/footprints/:category?": [],
     "/shanghaitech/activity": [],
@@ -6589,6 +6601,9 @@
     "/telegram/blog": [
         "fengkx"
     ],
+    "/telegram/channel/:username": [
+        "synchrone"
+    ],
     "/telegram/channel/:username/:routeParams?": [
         "DIYgod",
         "Rongronggg9"
@@ -6831,6 +6846,9 @@
     "/tokeninsight/report:lang?": [
         "fuergaosi233"
     ],
+    "/tongji/bks": [
+        "shiquda"
+    ],
     "/tongji/sse/:type?": [
         "sgqy"
     ],
@@ -6894,6 +6912,9 @@
     ],
     "/tucaoqq/post/:project/:key": [],
     "/tvb/news/:category?/:language?": [
+        "nczitzk"
+    ],
+    "/tvtropes/featured/:category?": [
         "nczitzk"
     ],
     "/twitch/live/:login": [
@@ -7364,6 +7385,9 @@
     ],
     "/wmc-bj/publish/:category?": [
         "nczitzk"
+    ],
+    "/wmpvp/news/:type": [
+        "tssujt"
     ],
     "/wnacg": [
         "KenMizz"
@@ -7948,6 +7972,9 @@
     "/zongheng/chapter/:id": [],
     "/zotero/versions": [
         "jasongzy"
+    ],
+    "/zrblog": [
+        "cnkmmk"
     ],
     "/zreading": [],
     "/zsnews/index/:cateid": [],
